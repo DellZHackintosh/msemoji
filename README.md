@@ -1,6 +1,6 @@
 # Microsoft Emoji（msemoji)
 
-<mark>注意：本文档需要修复大量细节。文档将在八月前更新。</mark>
+**_注意：本文档需要修复大量细节。文档将在八月前更新。_**
 
 ## 关于 msemoji
 

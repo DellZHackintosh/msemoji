@@ -1,32 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   viewBox="0 0 36 36"
-   version="1.1"
-   id="svg12"
-   sodipodi:docname="#grassgao.svg"
-   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs16" />
-  <sodipodi:namedview
-     id="namedview14"
-     pagecolor="#505050"
-     bordercolor="#eeeeee"
-     borderopacity="1"
-     inkscape:pageshadow="0"
-     inkscape:pageopacity="0"
-     inkscape:pagecheckerboard="0"
-     showgrid="false"
-     inkscape:zoom="2.7708333"
-     inkscape:cx="174.31579"
-     inkscape:cy="128.30075"
-     inkscape:window-width="1920"
-     inkscape:window-height="991"
-     inkscape:window-x="-9"
-     inkscape:window-y="-9"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="svg12" />
-</svg>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg"><g transform="scale(1,-1)">
+		<path d="M651-215c19 0 36 15 36 36 0 18-17 35-36 35l-215 0c-19 0-36-17-36-35 0-19 15-36 36-36l215 0 z M651 72c19 0 36 15 36 36 0 19-15 36-36 36l-215 0c-19 0-36-15-36-36 0-19 15-36 36-36l215 0 z M651-72c19 0 36 15 36 36 0 19-15 36-36 36l-215 0c-19 0-36-15-36-36 0-19 15-36 36-36l215 0 z M651 216c19 0 36 15 36 36 0 19-15 36-36 36l-215 0c-19 0-36-15-36-36 0-19 15-36 36-36l215 0 z" fill="#990838"/>
+		<path d="M615-291c526 0 1012 245 1339 666 118 153 229 334 229 555 0 368-335 723-706 723-122 0-228-28-319-85-159-100-252-300-255-492l143 0c0 16 2 32 7 49 44 165 187 240 351 240 201 0 288-188 288-356 0-71-17-136-50-195-177-312-681-453-956-453-96 0-140-49-140-148l0-428c0-45 18-76 69-76 z" fill="#CA0B4A"/>
+		<path d="M2170 71c206 2 247-6 247 187l0 267c-3 163-35 191-149 191l-215-1c-324 0-971 51-971 485 0 239 165 381 399 381 192 0 381-78 515-217 56-59 118-134 149-214-15 77-56 153-98 214-148 209-377 337-641 337-421 0-720-257-720-693 0-475 275-744 718-861 244-64 528-76 766-76 z" fill="#F8312F"/>
+	</g></svg>

@@ -1,32 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   viewBox="0 0 36 36"
-   version="1.1"
-   id="svg12"
-   sodipodi:docname="#grassgao.svg"
-   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs16" />
-  <sodipodi:namedview
-     id="namedview14"
-     pagecolor="#505050"
-     bordercolor="#eeeeee"
-     borderopacity="1"
-     inkscape:pageshadow="0"
-     inkscape:pageopacity="0"
-     inkscape:pagecheckerboard="0"
-     showgrid="false"
-     inkscape:zoom="2.7708333"
-     inkscape:cx="174.31579"
-     inkscape:cy="128.30075"
-     inkscape:window-width="1920"
-     inkscape:window-height="991"
-     inkscape:window-x="-9"
-     inkscape:window-y="-9"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="svg12" />
-</svg>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg"><g transform="scale(1,-1)">
+		<path d="M659 143c15 0 28 5 38 15l120 120c30 31 50 73 50 120l0 108c13-2 27-3 40-3l40 0 0-305c0-32 24-54 54-54 32 0 53 24 53 54l0 305 152 0c-10-20-15-42-15-65 0-81 65-149 148-149 53 0 102 28 128 73l84 141 322 0 0-305c0-29 24-54 54-54 30 0 54 22 54 54l0 305 164 0c51 0 92 41 92 92 0 11-1 20-4 28-31 102-107 185-198 231l18 45-72 179 0 157c0 31-18 59-54 59-16 0-29-6-40-18l-176-198-341-143 4-39-131 0c-54 134-209 182-340 182-51 0-99-13-144-38l0 121c0 71 58 133 133 133l766 0c19 0 35 15 35 36 0 21-16 36-35 36l-766 0c-111 0-205-89-205-205l0-180c-45-51-72-118-72-190 0-104 55-197 144-249l0-144c0-73-154-133-154-201 0-30 25-54 54-54 z" fill="#86D72F"/>
+		<path d="M2001 719l-20 0 0 359 343 0c47 0 88-37 88-88 0-15-4-30-13-45-75-137-235-226-398-226 z M1873 719l0 324-193-324 193 0 z M1391 719l320 359-799 0c153-5 278-128 278-287 0-25-3-49-9-72l210 0 z M684 503c42 0 75 35 75 76l0 424c0 40-32 75-75 75-157 0-284-129-284-287 0-157 125-288 284-288 z" fill="#C3EF3C"/>
+		<path d="M579 719c19 0 36 15 36 36l0 72c0 19-15 36-36 36-19 0-36-15-36-36l0-72c0-19 15-36 36-36 z" fill="#212121"/>
+	</g></svg>

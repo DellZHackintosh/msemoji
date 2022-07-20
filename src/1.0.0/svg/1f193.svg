@@ -1,32 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   viewBox="0 0 36 36"
-   version="1.1"
-   id="svg12"
-   sodipodi:docname="#grassgao.svg"
-   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs16" />
-  <sodipodi:namedview
-     id="namedview14"
-     pagecolor="#505050"
-     bordercolor="#eeeeee"
-     borderopacity="1"
-     inkscape:pageshadow="0"
-     inkscape:pageopacity="0"
-     inkscape:pagecheckerboard="0"
-     showgrid="false"
-     inkscape:zoom="2.7708333"
-     inkscape:cx="174.31579"
-     inkscape:cy="128.30075"
-     inkscape:window-width="1920"
-     inkscape:window-height="991"
-     inkscape:window-x="-9"
-     inkscape:window-y="-9"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="svg12" />
-</svg>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg"><g transform="scale(1,-1)">
+		<path d="M2125-287c156 0 287 125 287 287l0 1438c0 156-125 287-287 287l-1438 0c-156 0-287-125-287-287l0-1438c0-161 130-287 287-287l1438 0 z" fill="#00A6ED"/>
+		<path d="M1049 427c30 0 54 22 54 54l0 162 206-194c11-9 23-14 36-14 30 0 54 22 54 54 0 16-5 29-16 39l-143 133 0 1c89 11 152 87 152 171 0 95-76 173-173 173l-170 0c-32 0-54-24-54-54l0-471c0-32 24-54 54-54 z M2224 430c30 0 54 22 54 54 0 30-22 54-54 54l-207 0 0 115 203 0c32 0 54 24 54 54 0 30-22 54-54 54l-203 0 0 131 207 0c30 0 54 25 54 54 0 30-22 54-54 54l-261 0c-32 0-54-24-54-54l0-462c0-32 24-54 54-54l261 0 z M1780 430l-261 0c-30 0-54 22-54 54l0 462c0 30 22 54 54 54l261 0c30 0 54-25 54-54 0-29-24-54-54-54l-207 0 0-131 203 0c32 0 54-24 54-54 0-30-22-54-54-54l-203 0 0-115 207 0c29 0 54-24 54-54 0-29-24-54-54-54 z M606 430c-30 0-54 22-54 54l0 462c0 30 22 54 54 54l261 0c30 0 54-22 54-54 0-29-24-54-54-54l-207 0 0-131 203 0c30 0 54-22 54-54 0-30-22-54-54-54l-203 0 0-169c0-32-24-54-54-54 z M1219 768l-116 0 0 130 116 0c37 0 65-30 65-65 0-35-28-65-65-65 z" fill="#FFFFFF"/>
+	</g></svg>

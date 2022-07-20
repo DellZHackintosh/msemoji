@@ -1,32 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   viewBox="0 0 36 36"
-   version="1.1"
-   id="svg12"
-   sodipodi:docname="#grassgao.svg"
-   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs16" />
-  <sodipodi:namedview
-     id="namedview14"
-     pagecolor="#505050"
-     bordercolor="#eeeeee"
-     borderopacity="1"
-     inkscape:pageshadow="0"
-     inkscape:pageopacity="0"
-     inkscape:pagecheckerboard="0"
-     showgrid="false"
-     inkscape:zoom="2.7708333"
-     inkscape:cx="174.31579"
-     inkscape:cy="128.30075"
-     inkscape:window-width="1920"
-     inkscape:window-height="991"
-     inkscape:window-x="-9"
-     inkscape:window-y="-9"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="svg12" />
-</svg>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg"><g transform="scale(1,-1)">
+		<path d="M1853-287c94 0 182 74 182 181l0 200c0 431-350 784-785 784-432 0-783-351-783-784l0-200c0-102 81-181 181-181l1205 0 z" fill="#FFB02E"/>
+		<path d="M1576-163c68 0 127 55 127 127l0 141c0 301-246 550-550 550-294 0-550-237-550-550l0-141c0-69 55-127 127-127l846 0 z" fill="#6D4534"/>
+		<path d="M2012 15c223 0 401 182 401 404 0 223-169 382-380 403-129 12-223 59-313 165-79 94-184 152-314 152-131 0-235-58-313-152-93-112-179-150-321-166-105-12-191-55-255-117-66-65-117-174-117-270l0-15c0-221 178-404 401-404 210 0 384 162 400 373 63-37 133-56 205-56 74 0 145 19 205 56 15-201 183-373 401-373 z" fill="#44911B"/>
+		<path d="M908 132c158 0 284 128 284 285 0 159-128 285-284 285-157 0-285-127-285-285 0-157 127-285 285-285 z M1874 437c157 0 285 127 285 285 0 158-128 284-285 284-159 0-284-130-284-284 0-159 128-285 284-285 z" fill="#F8312F"/>
+		<path d="M2159-287c99 0 181 79 181 181l0 200c0 432-352 784-784 784-433 0-784-350-784-784l0-200c0-98 79-181 182-181l1205 0 z" fill="#F9C23C"/>
+	</g></svg>

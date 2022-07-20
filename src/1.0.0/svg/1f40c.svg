@@ -1,32 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   viewBox="0 0 36 36"
-   version="1.1"
-   id="svg12"
-   sodipodi:docname="#grassgao.svg"
-   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs16" />
-  <sodipodi:namedview
-     id="namedview14"
-     pagecolor="#505050"
-     bordercolor="#eeeeee"
-     borderopacity="1"
-     inkscape:pageshadow="0"
-     inkscape:pageopacity="0"
-     inkscape:pagecheckerboard="0"
-     showgrid="false"
-     inkscape:zoom="2.7708333"
-     inkscape:cx="174.31579"
-     inkscape:cy="128.30075"
-     inkscape:window-width="1920"
-     inkscape:window-height="991"
-     inkscape:window-x="-9"
-     inkscape:window-y="-9"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="svg12" />
-</svg>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg"><g transform="scale(1,-1)">
+		<path d="M867 1233l-108 0 0 253c-44 22-72 66-72 113 0 69 56 126 126 126 69 0 126-56 126-126 0-47-28-91-72-113l0-253 z M615 1233l0 253c44 20 72 65 72 113 0 69-56 126-126 126-70 0-125-58-125-126 0-48 28-93 72-113l0-253 107 0 z" fill="#D3883E"/>
+		<path d="M813 1546c29 0 54 21 54 53 0 32-24 54-54 54-30 0-54-22-54-54 0-32 25-53 54-53 z M561 1546c29 0 54 21 54 53 0 32-24 54-54 54-32 0-53-25-53-54 0-30 24-53 53-53 z" fill="#212121"/>
+		<path d="M1550-215c476 0 862 388 862 862 0 476-387 863-862 863-330 0-633-190-777-488l0-662-37 0c123-344 448-575 814-575 z" fill="#6D4534"/>
+		<path d="M2300-287c62 0 112 51 112 112l0 30c0 137-96 254-229 281-114-173-309-280-518-280-231 0-441 127-549 335-85 56-143 162-143 270l0 623c0 157-128 286-287 286-162 0-286-130-286-286l0-917c0-240 191-449 448-449l1452-5 z" fill="#F3AD61"/>
+		<path d="M1657-200c375 0 683 303 683 683 0 375-304 684-683 684-378 0-684-303-684-684 0-376 305-683 684-683 z M1799-38c-189 0-341 153-341 342 0 180 145 341 341 341 180 0 342-143 342-341 0-184-148-342-342-342 z" fill="#A56953"/>
+	</g></svg>

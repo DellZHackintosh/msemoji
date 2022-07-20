@@ -1,32 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   viewBox="0 0 36 36"
-   version="1.1"
-   id="svg12"
-   sodipodi:docname="#grassgao.svg"
-   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs16" />
-  <sodipodi:namedview
-     id="namedview14"
-     pagecolor="#505050"
-     bordercolor="#eeeeee"
-     borderopacity="1"
-     inkscape:pageshadow="0"
-     inkscape:pageopacity="0"
-     inkscape:pagecheckerboard="0"
-     showgrid="false"
-     inkscape:zoom="2.7708333"
-     inkscape:cx="174.31579"
-     inkscape:cy="128.30075"
-     inkscape:window-width="1920"
-     inkscape:window-height="991"
-     inkscape:window-x="-9"
-     inkscape:window-y="-9"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="svg12" />
-</svg>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg"><g transform="scale(1,-1)">
+		<path d="M2125-287c156 0 287 125 287 287l0 1438c0 156-125 287-287 287l-1438 0c-156 0-287-125-287-287l0-1438c0-161 130-287 287-287l1438 0 z" fill="#00A6ED"/>
+		<path d="M1209-72c32 0 54 24 54 54l0 485c0 19-15 36-36 36-19 0-36-15-36-36l0-467-359 0 0 467c0 19-15 36-36 36-19 0-36-15-36-36l0-485c0-30 22-54 54-54l395 0 z M1028 371c5 0 10 2 14 6l69 69c4 4 6 9 6 14 0 5-2 10-6 14l-102 102c-4 4-9 6-14 6-5 0-10-2-14-6l-69-69c-4-4-6-9-6-14 0-5 2-10 6-14l102-102c4-4 9-6 14-6 z M1761-94c42 0 76 28 76 72l1 899c0 18 17 36 36 36 19 0 36-15 36-36l-2-349c0-44 34-72 76-72 37 0 68 37 68 74l0 371c0 88-71 160-160 160l-429 0c-68 0-125-44-147-103l-70-189-128 0c-37 0-73-30-73-69 0-41 27-75 71-75l140 0c52 0 102 32 121 84l71 193c3 5 9 11 14 11 8 0 15-7 15-15l0-918c0-37 31-74 69-74 42 0 75 28 75 72l0 501c0 18 15 37 34 37 21 0 38-17 38-36l0-500c0-37 31-74 68-74 z M1653 1150c98 0 179 79 179 180 0 98-79 180-179 180-98 0-180-78-180-180 0-98 78-180 180-180 z" fill="#FFFFFF"/>
+	</g></svg>

@@ -1,32 +1,9 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   viewBox="0 0 36 36"
-   version="1.1"
-   id="svg12"
-   sodipodi:docname="#grassgao.svg"
-   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs16" />
-  <sodipodi:namedview
-     id="namedview14"
-     pagecolor="#505050"
-     bordercolor="#eeeeee"
-     borderopacity="1"
-     inkscape:pageshadow="0"
-     inkscape:pageopacity="0"
-     inkscape:pagecheckerboard="0"
-     showgrid="false"
-     inkscape:zoom="2.7708333"
-     inkscape:cx="174.31579"
-     inkscape:cy="128.30075"
-     inkscape:window-width="1920"
-     inkscape:window-height="991"
-     inkscape:window-x="-9"
-     inkscape:window-y="-9"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="svg12" />
-</svg>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg"><g transform="scale(1,-1)">
+		<path d="M1625-287l0 454-183 121-205-121 0-454 388 0 z" fill="#9B9B9B"/>
+		<path d="M1925 167c99 0 178 80 178 177l0 1203c0 98-79 178-178 178l-988 0c-98 0-178-79-178-178l0-1203c0-99 81-177 178-177l988 0 z" fill="#F92F60"/>
+		<path d="M1811 405c33 0 60 26 60 60l0 421c0 33-26 60-60 60l-760 0c-33 0-60-26-60-60l0-421c0-33 26-60 60-60l760 0 z M1841 1488c18 0 30 15 30 31 0 16-14 30-30 30l-820 0c-16 0-30-14-30-30 0-16 12-31 30-31l820 0 z" fill="#CA0B4A"/>
+		<path d="M1734 1123c75 0 137 59 137 137 0 75-62 137-137 137l-46 0-281-188-231 188-48 0c-75 0-137-62-137-137 0-78 62-137 137-137l606 0 z" fill="#321B41"/>
+		<path d="M1507 788l133 609-392 0-130-609 389 0 z" fill="#E1D8EC"/>
+		<path d="M1120 788l282 330c11 12 18 28 18 44 0 7-1 11-4 18l-91 217-125 0c-12-54-128-563-128-588 0-12 9-21 21-21l27 0 z" fill="#CDC4D6"/>
+		<path d="M1094 788l282 330c11 12 18 27 18 43 0 7-1 14-4 19l-91 217-125 0c-12-54-128-563-128-588 0-12 9-21 21-21l27 0 z M1522 788c18 0 36 5 40 26l127 583-125 0-160-188c7-15 16-31 16-47 0-31-24-52-43-73l126-301 19 0 z" fill="#F3EEF8"/>
+	</g></svg>

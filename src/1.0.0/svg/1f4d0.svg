@@ -1,32 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   viewBox="0 0 36 36"
-   version="1.1"
-   id="svg12"
-   sodipodi:docname="#grassgao.svg"
-   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs16" />
-  <sodipodi:namedview
-     id="namedview14"
-     pagecolor="#505050"
-     bordercolor="#eeeeee"
-     borderopacity="1"
-     inkscape:pageshadow="0"
-     inkscape:pageopacity="0"
-     inkscape:pagecheckerboard="0"
-     showgrid="false"
-     inkscape:zoom="2.7708333"
-     inkscape:cx="174.31579"
-     inkscape:cy="128.30075"
-     inkscape:window-width="1920"
-     inkscape:window-height="991"
-     inkscape:window-x="-9"
-     inkscape:window-y="-9"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="svg12" />
-</svg>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg"><g transform="scale(1,-1)">
+		<path d="M2260-287c82 0 152 67 152 152 0 41-16 80-44 108l-1708 1708c-28 28-67 44-108 44-86 0-152-70-152-152l0-1693c0-94 76-167 167-167l1693 0 z M1425 144l-522 0c-39 0-72 31-72 72l0 522c0 29 22 52 52 52 13 0 25-5 36-16l542-542c11-11 16-23 16-36 0-29-22-52-52-52 z" fill="#BEBEBE"/>
+		<path d="M2017 71c-19 0-37 16-37 37 0 10 4 19 11 26l72 72c7 7 15 10 26 10 19 0 36-15 36-36 0-11-3-19-10-26l-72-72c-7-7-16-11-26-11 z M1621 466c-21 0-36 19-36 37 0 10 4 19 11 26l72 72c7 7 15 10 25 10 21 0 37-17 37-36 0-10-4-19-11-26l-72-72c-7-7-16-11-26-11 z M1226 862c-21 0-37 17-37 36 0 10 4 19 11 26l72 72c7 7 16 11 26 11 19 0 36-16 36-37 0-10-3-18-10-25l-72-72c-7-7-16-11-26-11 z M831 1257c-19 0-37 16-37 37 0 10 4 19 11 26l72 72c7 7 15 10 26 10 19 0 36-15 36-36 0-11-3-19-10-26l-72-72c-7-7-16-11-26-11 z M615 1437c10 0 19 4 26 11l126 126-52 51-126-126c-7-7-11-16-11-26 0-19 16-36 37-36 z M1010 1041c10 0 19 4 26 11l126 126-51 52-126-126c-7-7-11-16-11-26 0-21 17-37 36-37 z M1406 646c10 0 19 4 26 11l126 126-52 52-126-126c-7-7-11-16-11-26 0-19 16-37 37-37 z M1801 251c10 0 19 4 26 11l126 126-52 51-126-125c-7-7-11-16-11-26 0-19 16-37 37-37 z M2196-144c10 0 19 4 26 11l126 125-51 52-126-126c-7-7-11-16-11-26 0-19 18-36 36-36 z" fill="#8D65C5"/>
+	</g></svg>

@@ -1,32 +1,8 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   viewBox="0 0 36 36"
-   version="1.1"
-   id="svg12"
-   sodipodi:docname="#grassgao.svg"
-   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs16" />
-  <sodipodi:namedview
-     id="namedview14"
-     pagecolor="#505050"
-     bordercolor="#eeeeee"
-     borderopacity="1"
-     inkscape:pageshadow="0"
-     inkscape:pageopacity="0"
-     inkscape:pagecheckerboard="0"
-     showgrid="false"
-     inkscape:zoom="2.7708333"
-     inkscape:cx="174.31579"
-     inkscape:cy="128.30075"
-     inkscape:window-width="1920"
-     inkscape:window-height="991"
-     inkscape:window-x="-9"
-     inkscape:window-y="-9"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="svg12" />
-</svg>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2300 2300"><g transform="scale(1,-1) translate(-256, -1869)">
+		<path d="M2279-287c67 0 122 51 133 115l143 979 0 9c0 68-55 119-119 119l-1402 0c-67 0-122-51-133-116l-143-979 0-9c0-67 53-118 119-118l1402 0 z" fill="#998EA4"/>
+		<path d="M2288-162c32 0 58 25 62 54l126 863c0 31-13 54-46 54l-1403 0c-30 0-58-22-62-54l-126-863c0-31 13-54 46-54l1403 0 z" fill="#CDC4D6"/>
+		<path d="M2280-215c72 0 67 91 75 140l-639 419c-17 11-35 16-53 16-19 0-39-5-58-16l-761-419c-4-32-13-64-13-95 0-27 22-45 47-45l1402 0 z" fill="#E1D8EC"/>
+		<path d="M1644 234c31 0 60 8 87 23l731 403 14 95-1511 0-14-95 614-403c25-15 51-23 79-23 z" fill="#998EA4"/>
+		<path d="M1652 288c21 0 40 5 58 15l761 420c4 32 13 64 13 95 0 27-21 45-47 45l-1402 0c-72 0-67-93-75-140l639-420c16-10 34-15 53-15 z" fill="#F3EEF8"/>
+		<path d="M543 72l-143 0c-39 0-72 31-72 72 0 39 31 72 72 72l143 0c39 0 72-31 72-72 0-39-31-72-72-72 z M615 360c38 0 72 31 72 71 0 39-31 72-72 72l-215 0c-39 0-72-31-72-72 0-40 34-71 72-71l215 0 z M687 647c39 0 72 31 72 72 0 39-31 72-72 72l-287 0c-39 0-72-31-72-72 0-39 31-72 72-72l287 0 z" fill="#00A6ED"/>
+	</g></svg>

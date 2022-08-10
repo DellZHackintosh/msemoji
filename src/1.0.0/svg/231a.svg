@@ -1,32 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   viewBox="0 0 36 36"
-   version="1.1"
-   id="svg12"
-   sodipodi:docname="#grassgao.svg"
-   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs16" />
-  <sodipodi:namedview
-     id="namedview14"
-     pagecolor="#505050"
-     bordercolor="#eeeeee"
-     borderopacity="1"
-     inkscape:pageshadow="0"
-     inkscape:pageopacity="0"
-     inkscape:pagecheckerboard="0"
-     showgrid="false"
-     inkscape:zoom="2.7708333"
-     inkscape:cx="174.31579"
-     inkscape:cy="128.30075"
-     inkscape:window-width="1920"
-     inkscape:window-height="991"
-     inkscape:window-x="-9"
-     inkscape:window-y="-9"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="svg12" />
-</svg>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2300 2300"><g transform="scale(1,-1) translate(-256, -1869)">
+		<path d="M2304 575l-107 0c-39 0-72 31-72 72l0 144c0 39 31 72 72 72l107 0c39 0 72-31 72-72l0-144c0-39-31-72-72-72 z M1837-287c39 0 72 31 72 72l0 305c-142-101-313-162-503-162-179 0-354 54-503 162l0-305c0-39 31-72 72-72l862 0 z M1909 1348l0 305c0 39-31 72-72 72l-862 0c-39 0-72-31-72-72l0-305c149 108 324 162 503 162 190 0 361-61 503-162 z" fill="#3F5FFF"/>
+		<path d="M1406-144c477 0 862 389 862 863 0 476-388 862-862 862-476 0-863-387-863-862 0-476 388-863 863-863 z" fill="#A4AEEB"/>
+		<path d="M1406 72c355 0 647 288 647 647 0 355-288 647-647 647-355 0-647-288-647-647 0-355 288-647 647-647 z" fill="#5235A6"/>
+		<path d="M1166 368c21 0 39 8 53 24l240 268c12 13 18 28 18 47 0 17-4 31-13 42 9 13 14 27 14 42l0 431c0 39-31 72-72 72-39 0-72-31-72-72l0-431c0-15 4-28 13-41l-235-262c-13-14-19-30-19-47 0-40 32-73 73-73 z" fill="#FFFFFF"/>
+		<path d="M1406 575c81 0 144 67 144 144 0 81-67 144-144 144-81 0-144-67-144-144 0-81 67-144 144-144 z" fill="#FCD53F"/>
+	</g></svg>

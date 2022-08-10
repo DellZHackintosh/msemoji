@@ -1,32 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   viewBox="0 0 36 36"
-   version="1.1"
-   id="svg12"
-   sodipodi:docname="#grassgao.svg"
-   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs16" />
-  <sodipodi:namedview
-     id="namedview14"
-     pagecolor="#505050"
-     bordercolor="#eeeeee"
-     borderopacity="1"
-     inkscape:pageshadow="0"
-     inkscape:pageopacity="0"
-     inkscape:pagecheckerboard="0"
-     showgrid="false"
-     inkscape:zoom="2.7708333"
-     inkscape:cx="174.31579"
-     inkscape:cy="128.30075"
-     inkscape:window-width="1920"
-     inkscape:window-height="991"
-     inkscape:window-x="-9"
-     inkscape:window-y="-9"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="svg12" />
-</svg>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2300 2300"><g transform="scale(1,-1) translate(-256, -1869)">
+		<path d="M2412-287l0 1212c0 44-34 81-81 81l-700 0c-44 0-81-34-81-81l0-278-10-16 0-918 872 0 z M1332 360l2 4 0 283-36 108 36 108 0 215-36 108 36 108 0 216-108 36-108-36 0-216 36-108-36-108 0-710c0-3 1-6 3-8l211 0 z M829 360l2 4 0 283-36 108 36 108 0 215-36 108 36 108 0 216-108 36-108-36 0-216 36-108-36-108 0-215 36-108-36-108 0-283 2-4 212 0 z" fill="#D3D3D3"/>
+		<path d="M1550-287l0 934c-47-26-533-271-549-271-15 0-27 13-27 27l0 200c0 15-12 27-26 27-10 0-207-97-347-169-142-74-201-92-201-118l0-630 139 0 180 110 180-110 149 0 178 110 178-110 146 0 z" fill="#9B9B9B"/>
+		<path d="M2233 288c18 0 35 17 35 36l0 72c0 18-16 35-35 35l-72 0c-19 0-36-17-36-35l0-72c0-19 15-36 36-36l72 0 z M2233 503c18 0 35 17 35 36l0 72c0 19-17 36-35 36l-72 0c-19 0-36-15-36-36l0-72c0-19 15-36 36-36l72 0 z M2233 719c18 0 35 17 35 36l0 72c0 19-17 36-35 36l-72 0c-19 0-36-15-36-36l0-72c0-19 15-36 36-36l72 0 z M2017 288c19 0 36 15 36 36l0 72c0 18-17 35-36 35l-72 0c-19 0-36-17-36-35l0-72c0-19 15-36 36-36l72 0 z M2017 503c19 0 36 15 36 36l0 72c0 19-15 36-36 36l-72 0c-19 0-36-15-36-36l0-72c0-19 15-36 36-36l72 0 z M2017 719c19 0 36 15 36 36l0 72c0 19-15 36-36 36l-72 0c-19 0-36-15-36-36l0-72c0-19 15-36 36-36l72 0 z M1801 288c19 0 36 15 36 36l0 72c0 18-17 35-36 35l-72 0c-19 0-36-17-36-35l0-72c0-18 17-36 36-36l72 0 z M1801 503c19 0 36 15 36 36l0 72c0 19-15 36-36 36l-72 0c-18 0-36-17-36-36l0-72c0-18 17-36 36-36l72 0 z M1801 719c19 0 36 15 36 36l0 72c0 19-15 36-36 36l-72 0c-18 0-36-17-36-36l0-72c0-18 17-36 36-36l72 0 z" fill="#83CBFF"/>
+		<path d="M1406-287l0 188c0 15-13 27-27 27l-305 0c-14 0-27-12-27-27l0-188 359 0 z M903-287l0 188c0 16-14 27-28 27l-304 0c-15 0-28-13-28-27l0-188 360 0 z M2197-287l0 261c0 15-14 26-28 26l-376 0c-14 0-28-11-28-26l0-261 432 0 z" fill="#1C1C1C"/>
+		<path d="M1334 647l0 216-216 0 0-216 216 0 z M1334 1078l0 216-216 0 0-216 216 0 z M1334 1510l0 179c0 22-18 36-37 36l-142 0c-21 0-37-17-37-36l0-179 216 0 z M831 1078l0 216-216 0 0-216 216 0 z M831 647l0 216-216 0 0-216 216 0 z M831 1510l0 179c0 19-16 36-37 36l-142 0c-21 0-37-17-37-36l0-179 216 0 z" fill="#F8312F"/>
+	</g></svg>

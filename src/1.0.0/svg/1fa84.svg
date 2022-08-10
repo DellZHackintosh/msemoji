@@ -1,32 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   viewBox="0 0 36 36"
-   version="1.1"
-   id="svg12"
-   sodipodi:docname="#grassgao.svg"
-   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs16" />
-  <sodipodi:namedview
-     id="namedview14"
-     pagecolor="#505050"
-     bordercolor="#eeeeee"
-     borderopacity="1"
-     inkscape:pageshadow="0"
-     inkscape:pageopacity="0"
-     inkscape:pagecheckerboard="0"
-     showgrid="false"
-     inkscape:zoom="2.7708333"
-     inkscape:cx="174.31579"
-     inkscape:cy="128.30075"
-     inkscape:window-width="1920"
-     inkscape:window-height="991"
-     inkscape:window-x="-9"
-     inkscape:window-y="-9"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="svg12" />
-</svg>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2300 2300"><g transform="scale(1,-1) translate(-256, -1869)">
+		<path d="M615-215l1150 1150-143 143-1150-1150 143-143 z" fill="#433B6B"/>
+		<path d="M511-288c24 0 42 10 58 26l118 118-144 144-119-117c-16-16-24-35-24-58 0-31 14-50 34-69 20-20 41-44 77-44 z M1693 863l121 120c16 16 23 38 23 60 0 51-49 103-100 103-31 0-58-11-79-32l-108-108 143-143 z" fill="#F4F4F4"/>
+		<path d="M1622 288c40 0 71 34 71 72 0 39-33 71-71 71-38 0-72-31-72-71 0-39 31-72 72-72 z M1622 1581c-38 0-72 33-72 72 0 39 31 72 72 72 40 0 71-34 71-72 0-38-31-72-71-72 z M2340 863c39 0 72 31 72 72 0 40-34 71-72 71-38 0-72-31-72-71 0-38 33-72 72-72 z M1118 863c-40 0-71 34-71 72 0 38 32 71 71 71 38 0 72-31 72-71 0-39-31-72-72-72 z M2017 432c-11 0-18 5-22 14l-49 116c-24 54-109 46-109 85 0 39 87 33 109 85l49 117c4 9 11 13 22 13 8 0 18-4 22-13l49-117c21-51 108-47 108-85 0-40-84-31-108-85l-49-116c-4-9-11-14-22-14 z M1334 1222c-11 0-18 4-22 13l-49 107c-21 48-109 41-109 77 0 37 85 30 109 79l49 107c4 9 11 13 22 13 10 0 17-4 22-13l49-107c24-48 108-42 108-79 0-36-87-30-108-77l-49-107c-5-9-12-13-22-13 z M2160 1150c13 0 26 7 31 19l69 155c32 72 152 61 152 114 0 53-121 40-153 113l-68 156c-5 12-18 18-31 18-12 0-25-6-30-18l-69-156c-32-71-152-62-152-113 0-53 120-41 152-114l69-155c5-12 18-19 30-19 z" fill="#F9C23C"/>
+	</g></svg>

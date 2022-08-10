@@ -1,32 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   viewBox="0 0 36 36"
-   version="1.1"
-   id="svg12"
-   sodipodi:docname="#grassgao.svg"
-   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs16" />
-  <sodipodi:namedview
-     id="namedview14"
-     pagecolor="#505050"
-     bordercolor="#eeeeee"
-     borderopacity="1"
-     inkscape:pageshadow="0"
-     inkscape:pageopacity="0"
-     inkscape:pagecheckerboard="0"
-     showgrid="false"
-     inkscape:zoom="2.7708333"
-     inkscape:cx="174.31579"
-     inkscape:cy="128.30075"
-     inkscape:window-width="1920"
-     inkscape:window-height="991"
-     inkscape:window-x="-9"
-     inkscape:window-y="-9"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="svg12" />
-</svg>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2300 2300"><g transform="scale(1,-1) translate(-256, -1869)">
+		<path d="M1622 216c395 0 718 319 718 719 0 384-308 718-718 718-395 0-719-318-719-718 0-395 319-719 719-719 z" fill="#00A6ED"/>
+		<path d="M1941 1124c57 0 90 47 90 102 0 74-64 169-147 169-58 0-89-48-89-103 0-78 66-168 146-168 z" fill="#FFFFFF"/>
+		<path d="M685-277c74 0 142 30 191 79l228 229c52 53 79 120 79 192 0 19-2 39-6 58 128-89 283-137 445-137 436 0 790 354 790 791 0 435-351 790-790 790-435 0-791-352-791-790 0-159 48-316 141-451-19 4-39 6-58 6-70 0-139-26-191-78l-228-229c-52-52-80-120-80-191 0-150 123-269 270-269 z M1622 288c-361 0-647 291-647 647 0 357 288 646 647 646 357 0 646-286 646-646 0-345-274-647-646-647 z" fill="#635994"/>
+	</g></svg>

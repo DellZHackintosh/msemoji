@@ -1,32 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   viewBox="0 0 36 36"
-   version="1.1"
-   id="svg12"
-   sodipodi:docname="#grassgao.svg"
-   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs16" />
-  <sodipodi:namedview
-     id="namedview14"
-     pagecolor="#505050"
-     bordercolor="#eeeeee"
-     borderopacity="1"
-     inkscape:pageshadow="0"
-     inkscape:pageopacity="0"
-     inkscape:pagecheckerboard="0"
-     showgrid="false"
-     inkscape:zoom="2.7708333"
-     inkscape:cx="174.31579"
-     inkscape:cy="128.30075"
-     inkscape:window-width="1920"
-     inkscape:window-height="991"
-     inkscape:window-x="-9"
-     inkscape:window-y="-9"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="svg12" />
-</svg>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2300 2300"><g transform="scale(1,-1) translate(-256, -1869)">
+		<path d="M1406-287c547 0 1006 440 1006 1006 0 547-440 1006-1006 1006-547 0-1006-440-1006-1006 0-547 440-1006 1006-1006 z" fill="#0074BA"/>
+		<path d="M1803 207c22 0 39 17 39 38l0 76c0 22-18 39-39 39-22 0-38-20-38-39l0-76c0-19 17-38 38-38 z M1379 36c21 0 39 8 54 23l122 122 5 174c0 41 36 43 68 43l137 205c11 16 11 35 11 54l0 17c0 15-9 20-21 23-62 16-196 62-196 143l0 36c0 68 36 100 104 100 20 0 29-11 33-26 2-8 3-16 3-25l-1-24c0-62 14-69 73-69l83 41c18 9 31 30 31 52 0 46-47 48-47 82 0 22 18 42 41 42l111 0c95 0 144-154 144-227l0-38c0-21 18-23 33-23 23 0 40 1 53 21l150 226c-104 346-388 613-744 693l-72-74-73 0c-43 43-62 73-122 73l-49 0c-64-2-62-8-170-64-19-11-21-31-21-51l1-67c0-30 9-39 40-39 25 0 32 26 32 46 0 31 18 49 41 71l10 1c30 0 31-32 31-56 0-89 0-132-100-132l-86 1c-45 0-80 36-123 36-51 0-52-44-52-83 0-41-73-11-73-73l0-86c0-42 37-46 71-46l18 0c64 0 23 108 72 108l69 0c81 0 89-72 168-72 66 0 54 108 132 108 23 0 34-4 38-14 1-5 2-11 2-18-1-8-1-17-1-27 0-25 4-49 35-49l27 0c44 0 82-35 82-82 0-16-14-30-30-30-17 0-81 39-133 39-40 0-88-43-119-71-12-3-25-4-37-4-38 0-42 11-42 47 0 19-18 28-35 28l-74 0c-70 0-75-72-142-72l-82 0c-22 0-45-11-61-27-84-87-111-91-111-219 0-59 77-185 144-185l206 0c66 0 120-53 120-121l0-124c0-27 22-47 48-47 43 0 61-6 61-51l0-161c0-42 33-78 77-78l36 0 z" fill="#00D26A"/>
+	</g></svg>

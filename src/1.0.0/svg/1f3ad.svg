@@ -1,32 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   viewBox="0 0 36 36"
-   version="1.1"
-   id="svg12"
-   sodipodi:docname="#grassgao.svg"
-   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs16" />
-  <sodipodi:namedview
-     id="namedview14"
-     pagecolor="#505050"
-     bordercolor="#eeeeee"
-     borderopacity="1"
-     inkscape:pageshadow="0"
-     inkscape:pageopacity="0"
-     inkscape:pagecheckerboard="0"
-     showgrid="false"
-     inkscape:zoom="2.7708333"
-     inkscape:cx="174.31579"
-     inkscape:cy="128.30075"
-     inkscape:window-width="1920"
-     inkscape:window-height="991"
-     inkscape:window-x="-9"
-     inkscape:window-y="-9"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="svg12" />
-</svg>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2300 2300"><g transform="scale(1,-1) translate(-256, -1869)">
+		<path d="M1801-287c230 0 442 163 483 404l126 719c1 5 2 9 2 13l0 13c0 81-68 145-145 145-39 0-95-25-141-47-132-62-223-77-325-77-119 0-220 28-336 81-28-137-92-301-229-375l83-472c41-239 249-404 482-404 z M2119 396c-3 0-5 1-6 4-29 53-65 95-131 95-66 0-104-39-131-95-1-3-3-4-6-4-4 0-6 2-6 7l0 11c0 77 54 161 143 161 76 0 144-73 144-149l0-24c0-4-2-6-7-6 z M2137-36c-5 0-9 1-12 4-10 8-20 28-28 41-53 88-171 162-296 162-54 0-104-11-151-34-54-27-114-77-144-128-10-18-22-45-41-45-13 0-23 10-23 24 0 194 149 372 360 372 202 0 359-171 359-372 0-13-9-24-24-24 z M1758 396c-3 0-5 1-6 4-29 53-65 95-131 95-68 0-101-43-130-95-1-3-4-4-7-4-4 0-6 2-6 7l0 11c0 77 54 161 143 161 76 0 144-73 144-149l0-24c0-4-2-6-7-6 z" fill="#FFB02E"/>
+		<path d="M1011 431c240 0 443 175 482 405l126 719c1 5 2 9 2 13l0 13c0 81-67 144-144 144-41 0-96-25-141-46-133-62-224-77-325-77-97 0-192 19-283 58-47 18-132 65-184 65-57 0-109-35-132-88-11-23-12-47-12-69 0-4 1-8 2-13l126-719c40-235 247-405 483-405 z M1327 1114c-3 0-5 2-6 5-27 54-65 94-131 94-71 0-99-41-131-94-2-3-4-5-6-5-4 0-6 2-6 7 0 83 48 173 143 173 76 0 144-73 144-149l0-24c0-5-2-7-7-7 z M1011 647c-184 0-396 125-396 337 0 15 13 22 26 22 9 0 17-4 23-12 15-19 27-39 46-56 83-83 194-119 301-119 125 0 255 53 326 147 11 16 22 40 43 40 14 0 26-7 26-22 0-209-205-337-395-337 z M968 1114c-3 0-5 2-6 5-27 56-65 94-131 94-72 0-99-41-131-94-2-3-4-5-6-5-5 0-7 2-7 7 0 85 48 173 144 173 85 0 144-81 144-161l0-11c-1-5-3-8-7-8 z" fill="#00A6ED"/>
+	</g></svg>

@@ -1,32 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   viewBox="0 0 36 36"
-   version="1.1"
-   id="svg12"
-   sodipodi:docname="#grassgao.svg"
-   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs16" />
-  <sodipodi:namedview
-     id="namedview14"
-     pagecolor="#505050"
-     bordercolor="#eeeeee"
-     borderopacity="1"
-     inkscape:pageshadow="0"
-     inkscape:pageopacity="0"
-     inkscape:pagecheckerboard="0"
-     showgrid="false"
-     inkscape:zoom="2.7708333"
-     inkscape:cx="174.31579"
-     inkscape:cy="128.30075"
-     inkscape:window-width="1920"
-     inkscape:window-height="991"
-     inkscape:window-x="-9"
-     inkscape:window-y="-9"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="svg12" />
-</svg>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2300 2300"><g transform="scale(1,-1) translate(-256, -1869)">
+		<path d="M1802-287c334 0 610 269 610 611 0 334-269 611-611 611-263 0-501-171-582-425l-32 32-237 464 246 0c67 0 122 51 135 114 48 43 76 117 76 185 0 19-3 38-10 57-59 161-227 250-392 250-112 0-197-101-229-200l-333-1030-6-15c-19-39-37-113-37-181 0-252 202-473 474-473l928 0 z" fill="#9B9B9B"/>
+		<path d="M1801 72c139 0 252 113 252 252 0 138-111 251-252 251-138 0-251-108-251-251 0-138 110-252 251-252 z M903 1078c39 0 72 34 72 72 0 39-31 72-72 72-39 0-72-31-72-72 0-38 33-72 72-72 z" fill="#D3D3D3"/>
+		<path d="M827-72c138 0 251 111 251 252 0 138-110 252-251 252-139 0-252-113-252-252 0-139 113-252 252-252 z M1799-287c-384 0-597 322-597 657 0 47 5 94 17 141-5 5-27 27-32 30l-47 94c-89 49-196 82-305 82-119 0-232-45-325-127l-66-203c73 151 226 258 391 258 104 0 230-39 318-105-17-56-23-112-23-171 0-254 122-532 362-656l307 0 z M827 0c-98 0-180 78-180 180 0 98 78 180 180 180 98 0 179-79 179-180 0-98-79-180-179-180 z M1180 1006c85 0 154 56 154 144 0 62-38 120-101 139 35-24 42-68 42-104 0-58-26-107-96-107l-402 0c24-42 68-72 120-72l283 0 z M1190 1294c-28 13-129 72-157 72-38 0-58-40-58-72l215 0 z" fill="#636363"/>
+	</g></svg>

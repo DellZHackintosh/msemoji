@@ -1,32 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   viewBox="0 0 36 36"
-   version="1.1"
-   id="svg12"
-   sodipodi:docname="#grassgao.svg"
-   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs16" />
-  <sodipodi:namedview
-     id="namedview14"
-     pagecolor="#505050"
-     bordercolor="#eeeeee"
-     borderopacity="1"
-     inkscape:pageshadow="0"
-     inkscape:pageopacity="0"
-     inkscape:pagecheckerboard="0"
-     showgrid="false"
-     inkscape:zoom="2.7708333"
-     inkscape:cx="174.31579"
-     inkscape:cy="128.30075"
-     inkscape:window-width="1920"
-     inkscape:window-height="991"
-     inkscape:window-x="-9"
-     inkscape:window-y="-9"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="svg12" />
-</svg>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2300 2300"><g transform="scale(1,-1) translate(-256, -1869)">
+		<path d="M1478-287c224 0 434 140 490 362 284 28 516 267 516 572 0 287-213 542-516 572-56 221-264 362-490 362-214 0-432-132-490-359l-1 0-11-59c-29-153-143-240-275-297l17-67c-96-8-192-8-288-8-58-25-102-79-102-148 0-65 36-110 87-140 53 0 105-1 157-2 52-1 104-6 156-15l-20-68c137-61 227-136 268-290 8-23 10-46 17-69 53-203 261-346 485-346 z" fill="#9B9B9B"/>
+		<path d="M1478-215c201 0 407 134 429 359 270 0 505 211 505 503 0 280-223 503-505 503-21 215-217 360-429 360-206 0-408-141-430-360l-1 0c-32-172-164-286-318-350 66 5 123 14 189 25 29 5 153 38 166 38 18 0 35-17 35-36 0-23-17-32-35-37-210-58-418-71-637-71-28-14-47-44-47-76 0-26 13-53 36-68 241 0 444-24 647-138 17-11 36-18 36-41 0-21-18-37-36-37-5 0-11 2-18 5-110 60-214 99-328 120 152-67 281-182 313-352 38-214 217-347 428-347 z" fill="#FFFFFF"/>
+		<path d="M2017-359c58 0 108 49 108 108 0 59-49 107-108 107-60 0-108-49-108-107 0-63 50-108 108-108 z M2268 1222c79 0 144 63 144 144 0 81-67 144-144 144-80 0-143-65-143-144 0-80 64-144 143-144 z M1981 1438c39 0 72 31 72 72 0 40-34 71-72 71-38 0-72-31-72-71 0-39 31-72 72-72 z" fill="#D3D3D3"/>
+	</g></svg>

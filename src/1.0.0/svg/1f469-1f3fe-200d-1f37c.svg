@@ -1,32 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   viewBox="0 0 36 36"
-   version="1.1"
-   id="svg12"
-   sodipodi:docname="#grassgao.svg"
-   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs16" />
-  <sodipodi:namedview
-     id="namedview14"
-     pagecolor="#505050"
-     bordercolor="#eeeeee"
-     borderopacity="1"
-     inkscape:pageshadow="0"
-     inkscape:pageopacity="0"
-     inkscape:pagecheckerboard="0"
-     showgrid="false"
-     inkscape:zoom="2.7708333"
-     inkscape:cx="174.31579"
-     inkscape:cy="128.30075"
-     inkscape:window-width="1920"
-     inkscape:window-height="991"
-     inkscape:window-x="-9"
-     inkscape:window-y="-9"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="svg12" />
-</svg>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2300 2300"><g transform="scale(1,-1) translate(-256, -1869)">
+		<path d="M1012 506c17 0 32 1 45 4l659 116c115 20 207 121 207 246 0 89-55 151-55 172 0 24 10 50 10 82 0 151-113 183-135 305-24 122-124 213-254 213-19 0-34-5-53-5-11 0-20 4-29 12-56 48-109 74-179 74-106 0-188-59-232-146-6-14-15-21-31-24-122-27-214-122-214-253 0-31 8-58 8-89 0-72-42-131-42-202 0-92 56-155 56-173 0-24-11-49-11-79 0-139 110-253 250-253 z" fill="#FFF9BA"/>
+		<path d="M2165-287l-12 279 179 56-355 434-1 0c-146 173-362 272-592 272-415 0-768-329-768-752l-1-153c0-74 59-136 136-136l403 0 180 72 144-72 687 0 z" fill="#8B62BF"/>
+		<path d="M1364 545c75 0 137 62 137 137l0 163c0 75-62 137-137 137-79 0-138-64-138-137l0-163c0-77 62-137 138-137 z" fill="#8B5C56"/>
+		<path d="M950 892c68 0 120 57 120 120 0 65-55 119-120 119-63 0-119-52-119-119 0-65 53-120 119-120 z M1641 1014c68 0 119 57 119 120 0 68-55 119-119 119-68 0-119-55-119-119 0-65 53-120 119-120 z" fill="#8B5C56"/>
+		<path d="M1306 603c209 0 390 150 390 376 0 56-11 111-19 173-12 84-13 211-110 211l-12-1-244-43c-19-3-36-5-52-5-84 0-147 30-212 90-4 4-9 6-14 6-19 0-21-18-24-32-34-128-125-93-125-220 0-5 1-9 2-14l53-242c40-178 181-299 367-299 z" fill="#966661"/>
+		<path d="M998 1158c13 0 62 47 128 47 12 0 21 9 21 21 0 10-10 21-21 21-32 0-79-13-111-30-18-10-38-19-38-38 0-10 9-21 21-21 z M1405 1253c7 0 17 2 30 6 12 3 24 5 37 5 9 0 20-1 31-2 11-1 21-4 30-7l2 1 4-1 6-1c5 0 9 3 12 8 3 5 5 9 5 13 0 7-4 12-11 17-8 4-17 7-27 9-11 2-21 3-31 4-10 1-17 1-22 1-5 0-13 0-22-1-10-1-20-2-

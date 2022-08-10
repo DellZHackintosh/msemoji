@@ -1,32 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   viewBox="0 0 36 36"
-   version="1.1"
-   id="svg12"
-   sodipodi:docname="#grassgao.svg"
-   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs16" />
-  <sodipodi:namedview
-     id="namedview14"
-     pagecolor="#505050"
-     bordercolor="#eeeeee"
-     borderopacity="1"
-     inkscape:pageshadow="0"
-     inkscape:pageopacity="0"
-     inkscape:pagecheckerboard="0"
-     showgrid="false"
-     inkscape:zoom="2.7708333"
-     inkscape:cx="174.31579"
-     inkscape:cy="128.30075"
-     inkscape:window-width="1920"
-     inkscape:window-height="991"
-     inkscape:window-x="-9"
-     inkscape:window-y="-9"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="svg12" />
-</svg>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2300 2300"><g transform="scale(1,-1) translate(-256, -1869)">
+		<path d="M1406-287c164 0 319 55 441 176 13 13 25 26 36 40 29 40 62 67 90 107 123 182 152 377 152 593 0 66-28 125-70 166l0 751c0 98-79 179-180 179-97 0-179-79-179-179l0-360c-14 96-67 167-177 167-112 0-159-112-167-201-36 58-100 87-163 87-51 0-104-20-142-60l0 113c0 98-79 179-180 179-98 0-180-79-180-179l0-861c0-435 282-718 719-718 z" fill="#FFD7C2"/>
+		<path d="M1155 143c12 0 19 4 27 12 27 26 53 49 78 69 115 91 267 135 421 135l15-1 37-144c13-5 27-8 43-8 60 0 135 40 135 109 0 160-140 193-258 193-57 0-143 2-203 38-48 28-58 83-58 137 0 97 100 161 187 177-91 0-157 0-219-73-5 17-7 35-8 55l-1 55 0 240 1 15c-16 25-38 46-66 62-3-23-5-46-5-69l0-298c0-51 12-99 33-146-36-31-79-48-125-48-54 0-116 24-149 73-24 32-44 102-44 141 0 68 4 137 4 205 0 41 19 77 47 106l0 93c-87-60-114-118-118-194-3-59-5-140-5-210 0-136 30-364 211-364 82 0 131 19 180 87l2-3 10-26c26-70 107-130 197-130 20 0 44 1 68 2l36 0 31-3c-187-5-406-79-530-227-6-7-9-15-9-24 0-21 15-36 35-36 z M1765 863l0 625c0 72 13 185 76 234-88-16-145-95-145-181l0-678 69 0 z" fill="#F1B99B"/>
+	</g></svg>

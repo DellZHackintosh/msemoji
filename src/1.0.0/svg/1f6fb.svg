@@ -1,32 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   viewBox="0 0 36 36"
-   version="1.1"
-   id="svg12"
-   sodipodi:docname="#grassgao.svg"
-   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs16" />
-  <sodipodi:namedview
-     id="namedview14"
-     pagecolor="#505050"
-     bordercolor="#eeeeee"
-     borderopacity="1"
-     inkscape:pageshadow="0"
-     inkscape:pageopacity="0"
-     inkscape:pagecheckerboard="0"
-     showgrid="false"
-     inkscape:zoom="2.7708333"
-     inkscape:cx="174.31579"
-     inkscape:cy="128.30075"
-     inkscape:window-width="1920"
-     inkscape:window-height="991"
-     inkscape:window-x="-9"
-     inkscape:window-y="-9"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="svg12" />
-</svg>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2300 2300"><g transform="scale(1,-1) translate(-256, -1869)">
+		<path d="M2243-72c54 0 97 44 97 97l0 191-72 72 72 72 0 143-862 0 0 387c0 64-55 116-118 116l-259 0c-58 0-116-26-155-74l1-429-403 0c-80 0-144-64-144-143l106-115-106-101 0-119c0-54 44-97 97-97l1746 0 z" fill="#F8312F"/>
+		<path d="M1129 503c36 0 61 28 61 62l0 305c0 35-27 65-64 65l-179 0-332-432 514 0 z" fill="#50E2FF"/>
+		<path d="M1945-287c138 0 252 110 252 251 0 139-113 252-252 252-139 0-252-113-252-252 0-138 111-251 252-251 z M795-287c138 0 252 110 252 251 0 139-113 252-252 252-139 0-252-113-252-252 0-138 111-251 252-251 z M2343 503c39 0 72 34 72 72 0 39-31 72-72 72l-864 0 0-144 864 0 z" fill="#321B41"/>
+		<path d="M2340 144l0 216-36 0c-59 0-107-49-107-108 0-62 53-108 111-108l32 0 z" fill="#F9C23C"/>
+		<path d="M1945-144c58 0 108 49 108 108 0 57-46 108-108 108-61 0-108-48-108-108 0-58 49-108 108-108 z M795-144c58 0 108 49 108 108 0 57-46 108-108 108-61 0-108-48-108-108 0-58 49-108 108-108 z M465 144c44 0 78 36 78 78l0 59c0 42-34 79-78 79l-65 0 0-216 65 0 z" fill="#E6E6E6"/>
+	</g></svg>

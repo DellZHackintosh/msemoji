@@ -1,4 +1,4 @@
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg"><g transform="scale(1,-1)">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2300 2300"><g transform="scale(1,-1) translate(-256, -1869)">
 		<path d="M2197 0l0 1581c0 81-67 144-144 144l-1222 0 0-1725 1366 0 z" fill="#533566"/>
 		<path d="M2197-215l0 143-1510 0 0-143 1510 0 z" fill="#D3D3D3"/>
 		<path d="M1586 1150c38 0 72 33 72 72l0 144c0 38-33 72-72 72l-360 0c-38 0-72-33-72-72l0-144c0-38 33-72 72-72l360 0 z" fill="#FFFFFF"/>

@@ -1,32 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   viewBox="0 0 36 36"
-   version="1.1"
-   id="svg12"
-   sodipodi:docname="#grassgao.svg"
-   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs16" />
-  <sodipodi:namedview
-     id="namedview14"
-     pagecolor="#505050"
-     bordercolor="#eeeeee"
-     borderopacity="1"
-     inkscape:pageshadow="0"
-     inkscape:pageopacity="0"
-     inkscape:pagecheckerboard="0"
-     showgrid="false"
-     inkscape:zoom="2.7708333"
-     inkscape:cx="174.31579"
-     inkscape:cy="128.30075"
-     inkscape:window-width="1920"
-     inkscape:window-height="991"
-     inkscape:window-x="-9"
-     inkscape:window-y="-9"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="svg12" />
-</svg>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2300 2300"><g transform="scale(1,-1) translate(-256, -1869)">
+		<path d="M1406-287c556 0 1006 452 1006 1006 0 556-452 1006-1006 1006-556 0-1006-452-1006-1006 0-556 452-1006 1006-1006 z M984 1294l-221 0c115 128 263 218 426 260-80-76-149-164-205-260 z M1190-116c-163 42-313 132-427 260l222 0c56-96 125-184 205-260 z M915 288l-256 0c-64 111-102 232-113 359l287 0c8-124 35-244 82-359 z M1478-52l0 196 179 0c-51-74-111-139-179-196 z M1334 1294l-179 0c51 74 111 139 179 196l0-196 z M1657 1294l-179 0 0 196c68-57 128-122 179-196 z M2048 1294l-220 0c-56 96-125 184-206 260 163-42 311-132 426-260 z M1835 791l-357 0 0 359 262 0c55-113 86-234 95-359 z M2265 791l-286 0c-8 124-34 244-81 359l255 0c65-111 101-234 112-359 z M1740 288l-262 0 0 359 357 0c-9-125-40-246-95-359 z M2153 288l-255 0c47 115 73 235 81 359l286 0c-11-125-47-248-112-359 z M1622-116c80 76 149 164 205 260l221 0c-115-128-263-218-426-260 z M1334-52c-68 57-128 122-179 196l179 0 0-196 z M1334 288l-263 0c-53 114-85 234-94 359l357 0 0-359 z M1334 791l-357 0c9 125 41 245 94 359l263 0 0-359 z M833 791l-287 0c11 127 49 248 113 359l255 0c-47-115-73-235-81-359 z" fill="#83CBFF"/>
+	</g></svg>

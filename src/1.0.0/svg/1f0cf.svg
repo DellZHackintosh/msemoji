@@ -1,32 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   viewBox="0 0 36 36"
-   version="1.1"
-   id="svg12"
-   sodipodi:docname="#grassgao.svg"
-   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs16" />
-  <sodipodi:namedview
-     id="namedview14"
-     pagecolor="#505050"
-     bordercolor="#eeeeee"
-     borderopacity="1"
-     inkscape:pageshadow="0"
-     inkscape:pageopacity="0"
-     inkscape:pagecheckerboard="0"
-     showgrid="false"
-     inkscape:zoom="2.7708333"
-     inkscape:cx="174.31579"
-     inkscape:cy="128.30075"
-     inkscape:window-width="1920"
-     inkscape:window-height="991"
-     inkscape:window-x="-9"
-     inkscape:window-y="-9"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="svg12" />
-</svg>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2300 2300"><g transform="scale(1,-1) translate(-256, -1869)">
+		<path d="M2089-359c98 0 179 79 179 180l0 1796c0 98-79 180-179 180l-1366 0c-98 0-180-78-180-180l0-1796c0-98 78-180 180-180l1366 0 z" fill="#B4ACBC"/>
+		<path d="M2089-287c58 0 108 49 108 108l0 1796c0 58-49 108-108 108l-1366 0c-58 0-108-49-108-108l0-1796c0-58 49-108 108-108l1366 0 z" fill="#F3EEF8"/>
+		<path d="M1566 72c13 0 26 5 38 15 12 9 18 21 18 35l0 144 162 0c13 0 25 6 36 17 11 11 17 22 17 35 0 14-5 26-16 35l-202 180 0 3-2-1-125 112-88-192-91 191-123-114-1 1-2-2 1-1-198-183c-10-10-15-21-15-34 0-15 6-27 18-35 11-8 24-12 37-12l160 0 1-146c0-15 6-26 18-35 12-9 25-13 38-13 8 0 15 1 20 4 5 3 11 6 17 11l122 93 121-93c6-5 12-8 18-11 6-3 13-4 21-4 z" fill="#8D65C5"/>
+		<path d="M1406 288c146 0 287 107 287 263l0 240-575 0 0-240c0-155 141-263 288-263 z" fill="#FBB8AB"/>
+		<path d="M1693 647l0 196c0 11 2 21 7 30 5 9 11 16 19 23 8 6 17 11 27 14 9 3 19 5 29 5 19 0 37-5 54-16 17-11 33-20 48-29-3-7-4-16-4-25 0-25 9-47 26-64 17-17 39-26 64-26 25 0 47 9 64 26 17 17 26 39 26 64 0 14-3 27-9 39-6 12-14 22-24 31-10 8-21 14-34 17-8 2-15 3-23 3l-17-2-61 57c-19 17-39 33-59 46-20 13-42 23-65 31-24 7-52 11-83 11-33 0-65-5-96-16-32-11-60-26-85-46-25-20-44-44-59-72-15-29-23-60-23-95l0-130 278-72 z" fill="#26EAFC"/>
+		<path d="M1118 647l288 72 0 130c0 145-136 229-263 229-125 0-186-68-270-147-8 3-16 4-24 4-50 0-90-40-90-90 0-51 39-90 90-90 51 0 90 39 90 90 0 7-1 14-3 20 30 19 72 50 108 50 39 0 74-29 74-72l0-196 z" fill="#F8312F"/>
+		<path d="M1568 719l-109 450c23 18 37 44 37 72 0 51-39 90-90 90-51 0-90-39-90-90 0-28 14-54 37-72l-109-450 324 0 z" fill="#FCD53F"/>
+		<path d="M1118 575c62 81 197 112 289 112 90 0 225-29 286-109l0 109c-61 77-190 104-286 104-90 0-230-26-289-106l0-110 z" fill="#8D65C5"/>
+		<path d="M1406 342c49 0 108 33 108 89l-216 0c0-57 57-89 108-89 z" fill="#BB1D80"/>
+	</g></svg>

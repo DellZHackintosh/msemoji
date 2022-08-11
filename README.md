@@ -6,6 +6,10 @@
 
 这是一个基于 [Twemoji](https://github.com/twitter/twemoji) 修改的微软风格表情 Emoji。
 
+#### 🌟亮点
+
+_Placeholder_
+
 ## 🚀快速入门
 
 _Placeholder_
@@ -24,7 +28,7 @@ _Placeholder_
 
 微软每年更新 Emoji 的速度远没有其它平台快，一般新增表情都是随大版本更新的。今年的 Emoji 14.0 Twitter 已经更新了新的表情，但微软还没有，因此为了支持其它平台，现在只能用 Twitter 的表情先占位。等更新吧。
 
-（另注：想要看看您最爱使用的 Emoji 是不是微软的？您可以在[这里](https://dellzhackintosh.github.io/emojitest.html)查询。
+（另注：想要看看您最爱使用的 Emoji 是不是微软的？您可以在[这里](https://dellzhackintosh.github.io/emojitest.html)查询。）
 
 #### 2.为什么没有国家旗帜？
 

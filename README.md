@@ -1,6 +1,6 @@
 # Microsoft Emoji（msemoji)
 
-**_注意：本文档需要修复大量细节。请等候文档更新。_**
+‼️声明：我不生产表情，我只是表情的搬运工。
 
 ## ℹ️关于 msemoji
 
@@ -8,19 +8,65 @@
 
 #### 🌟亮点
 
-_Placeholder_
+如同 Twemoji 一样，本项目也可以将网页上的 Emoji 换成图片，在所有平台上获得统一的表情。但是，只有一种选择未免太少，此项目使你可以获得另一种选择，用微软表情装点网页，生动地表达你的心情。
 
 ## 🚀快速入门
 
-_Placeholder_
+在您的 HTML <head></head> 中加入以下内容：
+
+```
+<script src="https://cdn.jsdelivr.net/gh/DellZHackintosh/msemoji@0.1-beta/src/script/msemoji.min.js" crossorigin="anonymous"></script>
+```
+
+然后在 <body></body> 中加入这些内容：
+
+```
+<script>
+var div = document.createElement('div');
+div.textContent = 'I \u2764\uFE0F emoji!';
+document.body.appendChild(div);
+msemoji.parse(document.body);
+</script>
+```
+
+结果应该如下：
+
+![](./data/Get-started.jpg)
+
+祝贺您！您已经了解了它的基本用法，即`msemoji.parse()`。但是，我们不能局限于此，往下看，了解它的自定义内容。
 
 ## 🆙进阶玩法
 
-_Placeholder_
+### ⚙️参数设置
 
-#### ⚙️参数设置
+msemoji 带有一些参数，可以让您获得更多选择。以下是一个例子。
 
-_Placeholder_
+```
+msemoji.parse(document.body,{
+    base: string,
+    ext: string,
+    className: string,
+    folder: string
+  });
+```
+
+参数讲解：
+
+`base`指表情仓库的位置。例如，你可以指定其位置为：`https://example.msemoji.text`，也可以带有子目录：`https://helloemoji.io/msemoji`。指定表情仓库的位置取决于它们所在的地方。通常来说，你不需要使用此参数，脚本会默认使用本仓库，除非你需要换一个仓库。
+
+`ext`指文件的后缀名。所有的表情文件名称结构都为“对应的 Unicode+后缀名”。可供选择的后缀有`.png`和`.svg`，后文会讲讲它们。
+
+`className`对控制表情的 CSS 起到作用。它们默认会设置为`emoji`。一般来说，不用设置此项，除非网页上已有相同的 CSS Class 类名时，才需要更改此项。
+
+`folder`与文件后缀名相关，通过它来指定不同格式的表情。此参数会与您在`base`中指定的值（包括默认值）组合成完整目录，例如：`base` 值为`https://helloemoji.io/msemoji`，同时`folder`值为`/png`，则最终的链接为`https://helloemoji.io/msemoji/png`。默认值为`72x72`。此值取决于文件夹的名字。关于本仓库有哪些文件夹可供选择，请参阅后文。
+
+### 🔢表情种类介绍
+
+
+
+### ✨调整表情的显示效果
+
+
 
 ## 🤔常见问题
 

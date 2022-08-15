@@ -15,7 +15,7 @@
 在您的 HTML <head></head> 中加入以下内容：
 
 ```
-<script src="https://cdn.jsdelivr.net/gh/DellZHackintosh/msemoji@0.1-beta/src/script/msemoji.min.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/gh/DellZHackintosh/msemoji@1.0.0/src/script/msemoji.min.js" crossorigin="anonymous"></script>
 ```
 
 然后在 <body></body> 中加入这些内容：

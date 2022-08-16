@@ -1,6 +1,6 @@
 # Microsoft Emoji（msemoji)
 
-‼️声明：我不生产表情，我只是表情的搬运工。请按照微软的条款合理使用它们，详情请见[此](#3%E4%BD%A0%E6%98%AF%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3%E7%89%88%E6%9D%83%E9%97%AE%E9%A2%98%E7%9A%84%E6%88%91%E5%BA%94%E8%AF%A5%E6%80%8E%E4%B9%88%E5%90%88%E7%90%86%E7%9A%84%E4%BD%BF%E7%94%A8%E8%BF%99%E4%BA%9B%E8%A1%A8%E6%83%85)。
+‼️声明：我不生产表情，我只是表情的搬运工。请按照微软的条款合理使用它们，详情请见[此文档的“你是如何解决版权问题的？/我应该怎么合理的使用这些表情？”](#3%E4%BD%A0%E6%98%AF%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3%E7%89%88%E6%9D%83%E9%97%AE%E9%A2%98%E7%9A%84%E6%88%91%E5%BA%94%E8%AF%A5%E6%80%8E%E4%B9%88%E5%90%88%E7%90%86%E7%9A%84%E4%BD%BF%E7%94%A8%E8%BF%99%E4%BA%9B%E8%A1%A8%E6%83%85)。
 
 ## ℹ️关于 msemoji
 
@@ -8,7 +8,7 @@
 
 #### 🌟亮点
 
-如同 Twemoji 一样，本项目也可以将网页上的 Emoji 换成图片，在所有平台上获得统一的表情。但是，只有一种选择未免太少，此项目使你可以获得另一种选择，用微软表情装点网页，生动地表达你的心情。
+如同 Twemoji 一样，本项目也可以将网页上的 Emoji 换成图片，在所有平台上获得统一的表情。但是，只有一种选择未免太少，此项目使您可以获得另一种选择，用微软表情装点网页，生动地表达您的心情。
 
 ## 🚀快速入门
 
@@ -31,7 +31,7 @@ msemoji.parse(document.body);
 
 结果应该如下：
 
-![![(https://raw.githubusercontents.com/dellzhackintosh/dellzhackintosh.github.io/master/MSEmojis/data/Get-started.jpg)]](./data/Get-started.jpg)（中国大陆可能看不到效果，不用担心，可以参考[此处](#%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86%E8%A1%A5%E5%85%85)。）
+![![(https://raw.githubusercontents.com/dellzhackintosh/dellzhackintosh.github.io/master/MSEmojis/data/Get-started.jpg)]](./data/Get-started.jpg)（中国大陆可能看不到效果，不用担心，可以参考[此文档的“📋中国大陆补充”](#%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86%E8%A1%A5%E5%85%85)。）
 
 就是这么简单！msemoji 的执行函数就是`msemoji.parse()`。它可以通过两种方式转换表情为图片：
 
@@ -49,7 +49,7 @@ msemoji.parse(document.body);
    */
    ```
    
-   不过要注意，此方法不会像第一种方法一样自动更改某个元素的内容，它只是输出。如果要使用输出的内容，你还需要使用 JavaScript 将其输出的内容写入到一个元素内。此外，这个方法也没有第一种方法安全。
+   不过要注意，此方法不会像第一种方法一样自动更改某个元素的内容，它只是输出。如果要使用输出的内容，您还需要使用 JavaScript 将其输出的内容写入到一个元素内。此外，这个方法也没有第一种方法安全。
 
 祝贺您！您已经了解了它的基本用法。但是，我们不能局限于此，往下看，了解它的自定义内容。
 
@@ -70,7 +70,7 @@ msemoji.parse(document.body,{
 
 参数讲解：
 
-`base`指表情仓库的位置。例如，你可以指定其位置为：`https://example.msemoji.test`，也可以带有子目录：`https://helloemoji.io/msemoji`。指定表情仓库的位置取决于它们所在的地方。通常来说，你不需要使用此参数，脚本会默认使用本仓库，除非你需要换一个仓库。
+`base`指表情仓库的位置。例如，您可以指定其位置为：`https://example.msemoji.test`，也可以带有子目录：`https://helloemoji.io/msemoji`。指定表情仓库的位置取决于它们所在的地方。通常来说，您不需要使用此参数，脚本会默认使用本仓库，除非您需要换一个仓库。
 
 `ext`指文件的后缀名。所有的表情文件名称结构都为“对应的 Unicode+后缀名”。可供选择的后缀有`.png`和`.svg`，后文会讲讲它们。
 
@@ -78,13 +78,15 @@ msemoji.parse(document.body,{
 
 `folder`与文件后缀名相关，通过它来指定不同格式的表情。此参数会与您在`base`中指定的值（包括默认值）组合成完整目录，例如：`base` 值为`https://helloemoji.io/msemoji`，同时`folder`值为`/png`，则最终的链接为`https://helloemoji.io/msemoji/png`。默认值为`/72x72`。此值取决于文件夹的名字。关于本仓库有哪些文件夹可供选择，请参阅后文。
 
+注：您现在所看到的是脚本支持的一部分参数，它们最为常用。如果希望了解脚本都有哪些参数和额外功能，请访问 [Twemoji 文档](https://github.com/twitter/twemoji#object-as-parameter)。
+
 ### 🔢表情种类介绍
 
-本仓库提供了三种表情格式可供选择，你可以根据实际情况为您的网站选择合适的格式。
+本仓库提供了三种表情格式可供选择，您可以根据实际情况为您的网站选择合适的格式。
 
 | 格式           | PNG                                         | SVG                                                                                       | APNG                                                                                                         |
 |:------------:|:-------------------------------------------:|:-----------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------:|
-| 示例外观         | ![](C:\MyGitOC\msemoji\src\72x72\1f600.png) | ![](C:\MyGitOC\msemoji\src\svg\1f600.svg)                                                 | ![](C:\MyGitOC\msemoji\src\3D\1f600.png)                                                                     |
+| 示例外观         | ![![](https://raw.githubusercontents.com/dellzhackintosh/dellzhackintosh.github.io/master/MSEmojis/src/72x72/1f600.png)](./src/72x72/1f600.png) | ![![](https://raw.githubusercontents.com/dellzhackintosh/dellzhackintosh.github.io/master/MSEmojis/src/svg/1f600.png)](./src/svg/1f600.svg)                                                 | ![![](https://raw.githubusercontents.com/dellzhackintosh/dellzhackintosh.github.io/master/MSEmojis/src/3D/1f600.png)](./src/3D/1f600.png)                                                                     |
 | 对应的`ext`值    | `.png`                                      | `.svg`                                                                                    | `.png`                                                                                                       |
 | 对应的`folder`值 | `/72x72`                                    | `/svg`                                                                                    | `/3D`                                                                                                        |
 | 特点           | 大小为`72x72`像素，体积与加载速度达到最佳平衡。不可缩放。总体积为10MB。   | 大小不定，可自由缩放并保持清晰。体积最低。总大小为9.5MB。                                                           | 大小为`256x256`像素。大部分拥有动态效果。总体积高达1.8GB。                                                                         |
@@ -150,6 +152,16 @@ img.emoji {
 
 ![![](https://raw.githubusercontents.com/dellzhackintosh/dellzhackintosh.github.io/master/MSEmojis/data/Scheme_3.jpg)](./data/Scheme_3.jpg)
 
+### 💎特殊情况
+
+如果您正在使用像 Flarum 这样的 Web 系统，则 Emoji 可能是以插件的形式嵌入系统内的（例如，Flarum 将 Twemoji 制作成核心插件加入系统内）。这种情况下，没有必要更改插件，可以使用动态修改图像链接的方式换用 msemoji。
+
+这里提供一些思路，您也可以使用别的方式实现。
+
+1. 使用 Nginx 的内置`sub_filter`函数。
+
+2. 使用 JavaScript。
+
 ## 🤔常见问题
 
 #### 1.为什么这里面会有一些 Twitter 的表情？
@@ -182,6 +194,10 @@ https://www.fonts.com/content/microsoft-typography
 
 另外，msemoji 的脚本修改自 twemoji，它的许可证继承 twemoji，为 MIT 许可证。
 
+#### 4.如何处理遇到的 Bug？
+
+欢迎任何人通过 issue 反馈问题！反馈时请详细描述哪个文件有问题，格式是什么，遇到什么问题以及如何解决。如果可以，也欢迎您进行 Pull requests。
+
 ## 📋中国大陆补充
 
 `base`默认图像仓库地址为`https://raw.githubusercontent.com/DellZHackintosh/msemoji/main/src/`，可能会影响运行效果。如果出现这种问题，必须替换`base`默认值。下面提供一些可用的`base`值。
@@ -189,6 +205,8 @@ https://www.fonts.com/content/microsoft-typography
 1. `https://cdn.jsdelivr.net/gh/DellZHackintosh/msemoji@1.0.0/src/`（推荐。不过要记得，有挂掉的可能......）
 
 2. `https://raw.githubusercontents.com/dellzhackintosh/dellzhackintosh.github.io/master/MSEmojis`（请遵守`7ed.net`的使用说明，特别是**不要滥用**！）
+
+如果是脚本本身加载失败，则可以考虑换用`<script src="https://dellzhackintosh.github.io/msemoji.min.js" crossorigin="anonymous"></script>`。
 
 当然，您也可以自己建一个 CDN，可以从 Releases 中获取文件。
 

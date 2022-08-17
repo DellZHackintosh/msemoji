@@ -31,7 +31,7 @@ msemoji.parse(document.body);
 
 结果应该如下：
 
-![![(https://raw.githubusercontents.com/dellzhackintosh/dellzhackintosh.github.io/master/MSEmojis/data/Get-started.jpg)]](./data/Get-started.jpg)（中国大陆可能看不到效果，不用担心，可以参考[此文档的“📋中国大陆补充”](#%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86%E8%A1%A5%E5%85%85)。）
+![./data/Get-started.jpg](./data/Get-started.jpg)（中国大陆可能看不到效果，不用担心，可以参考[此文档的“📋中国大陆补充”](#%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86%E8%A1%A5%E5%85%85)。）
 
 就是这么简单！msemoji 的执行函数就是`msemoji.parse()`。它可以通过两种方式转换表情为图片：
 
@@ -84,20 +84,20 @@ msemoji.parse(document.body,{
 
 本仓库提供了三种表情格式可供选择，您可以根据实际情况为您的网站选择合适的格式。
 
-| 格式           | PNG                                         | SVG                                                                                       | APNG                                                                                                         |
-|:------------:|:-------------------------------------------:|:-----------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------:|
-| 示例外观         | ![![](https://raw.githubusercontents.com/dellzhackintosh/dellzhackintosh.github.io/master/MSEmojis/src/72x72/1f600.png)](./src/72x72/1f600.png) | ![![](https://raw.githubusercontents.com/dellzhackintosh/dellzhackintosh.github.io/master/MSEmojis/src/svg/1f600.png)](./src/svg/1f600.svg)                                                 | ![![](https://raw.githubusercontents.com/dellzhackintosh/dellzhackintosh.github.io/master/MSEmojis/src/3D/1f600.png)](./src/3D/1f600.png)                                                                     |
-| 对应的`ext`值    | `.png`                                      | `.svg`                                                                                    | `.png`                                                                                                       |
-| 对应的`folder`值 | `/72x72`                                    | `/svg`                                                                                    | `/3D`                                                                                                        |
-| 特点           | 大小为`72x72`像素，体积与加载速度达到最佳平衡。不可缩放。总体积为10MB。   | 大小不定，可自由缩放并保持清晰。体积最低。总大小为9.5MB。                                                           | 大小为`256x256`像素。大部分拥有动态效果。总体积高达1.8GB。                                                                         |
-| 优点           | 兼容性极佳，性能消耗少，加载较快。                           | 可自由缩放并保持清晰。体积最低并可获得更快的加载速度。                                                               | 唯一拥有动画的表情组，更加活泼。`256x256`像素的大小使放大后也能保持相当的清晰度。                                                                |
-| 缺点           | 不可缩放。在高分屏或以较大大小查看时较模糊。                      | 实时绘制，包含大量此类表情并频繁缩放可能会略微影响性能，尤其对于老设备来说。兼容性稍弱。[兼容性可在此处查看](https://caniuse.com/?search=svg)。 | 体积巨大，会拖慢加载速度。由于拥有动画，会占用较多性能，尤其对于老设备来说。兼容性极差，在不支持的浏览器上显示为静态PNG。[兼容性可在此处查看](https://caniuse.com/?search=apng)。 |
+| 格式           | PNG                                             | SVG                                                                                       | APNG                                                                                                         |
+|:------------:|:-----------------------------------------------:|:-----------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------:|
+| 示例外观         | ![./src/72x72/1f600.png](./src/72x72/1f600.png) | ![./src/svg/1f600.svg](./src/svg/1f600.svg)                                               | ![./src/3D/1f600.png](./src/3D/1f600.png)                                                                    |
+| 对应的`ext`值    | `.png`                                          | `.svg`                                                                                    | `.png`                                                                                                       |
+| 对应的`folder`值 | `/72x72`                                        | `/svg`                                                                                    | `/3D`                                                                                                        |
+| 特点           | 大小为`72x72`像素，体积与加载速度达到最佳平衡。不可缩放。总体积为10MB。       | 大小不定，可自由缩放并保持清晰。体积最低。总大小为9.5MB。                                                           | 大小为`256x256`像素。大部分拥有动态效果。总体积高达1.8GB。                                                                         |
+| 优点           | 兼容性极佳，性能消耗少，加载较快。                               | 可自由缩放并保持清晰。体积最低并可获得更快的加载速度。                                                               | 唯一拥有动画的表情组，更加活泼。`256x256`像素的大小使放大后也能保持相当的清晰度。                                                                |
+| 缺点           | 不可缩放。在高分屏或以较大大小查看时较模糊。                          | 实时绘制，包含大量此类表情并频繁缩放可能会略微影响性能，尤其对于老设备来说。兼容性稍弱。[兼容性可在此处查看](https://caniuse.com/?search=svg)。 | 体积巨大，会拖慢加载速度。由于拥有动画，会占用较多性能，尤其对于老设备来说。兼容性极差，在不支持的浏览器上显示为静态PNG。[兼容性可在此处查看](https://caniuse.com/?search=apng)。 |
 
 ### ✨调整表情的显示效果
 
 现在让我们回顾一下快速入门。
 
-![![](https://raw.githubusercontents.com/dellzhackintosh/dellzhackintosh.github.io/master/MSEmojis/data/Get-started.jpg)](./data/Get-started.jpg)
+![./data/Get-started.jpg](./data/Get-started.jpg)
 
 如此之大的表情显然不是我们想要的，那么应该如何调整它呢？我们需要`CSS`的帮助！
 
@@ -118,7 +118,7 @@ img.emoji {
 
 优点：与文本对齐不会打断阅读的连贯，使它们看起来像是原生的字体。
 
-预览：![![](https://raw.githubusercontents.com/dellzhackintosh/dellzhackintosh.github.io/master/MSEmojis/data/Scheme_1.jpg)](./data/Scheme_1.jpg)
+预览：![./data/Scheme_1.jpg](./data/Scheme_1.jpg)
 
 #### 🥈方案二（来自 Flarum）
 
@@ -136,7 +136,7 @@ img.emoji {
 
 优点：使用表情通常就是要表达自己的心情，这样的设置使表情略微突出，恰到好处地增加了用户对它的关注。另外，使表情略微加高一点点也使细节更为明显，优化了在低分屏的阅读体验。
 
-预览：![![](https://raw.githubusercontents.com/dellzhackintosh/dellzhackintosh.github.io/master/MSEmojis/data/Scheme_2.jpg)](./data/Scheme_2.jpg)
+预览：![./data/Scheme_2.jpg](./data/Scheme_2.jpg)
 
 #### 🥉方案三（来自百度贴吧）
 
@@ -150,7 +150,7 @@ img.emoji {
 
 预览：
 
-![![](https://raw.githubusercontents.com/dellzhackintosh/dellzhackintosh.github.io/master/MSEmojis/data/Scheme_3.jpg)](./data/Scheme_3.jpg)
+![./data/Scheme_3.jpg](./data/Scheme_3.jpg)
 
 ### 💎特殊情况
 
@@ -194,7 +194,11 @@ https://www.fonts.com/content/microsoft-typography
 
 另外，msemoji 的脚本修改自 twemoji，它的许可证继承 twemoji，为 MIT 许可证。
 
-#### 4.如何处理遇到的 Bug？
+#### 4.我不喜欢这种风格！可以再添加一些其它风格的表情吗？
+
+不能，原因是需要耗费大量的精力。另外，如项目名称一样，此项目是为 Microsoft Fluent Emoji 而生的。
+
+#### 5.如何处理遇到的 Bug？
 
 欢迎任何人通过 issue 反馈问题！反馈时请详细描述哪个文件有问题，格式是什么，遇到什么问题以及如何解决。如果可以，也欢迎您进行 Pull requests。
 

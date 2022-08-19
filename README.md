@@ -1,5 +1,7 @@
 # Microsoft Emoji（msemoji)
 
+**简体中文** | [English](./README-EN.md)
+
 ‼️声明：我不生产表情，我只是表情的搬运工。请按照微软的条款合理使用它们，详情请见[此文档的“你是如何解决版权问题的？/我应该怎么合理的使用这些表情？”](#3%E4%BD%A0%E6%98%AF%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3%E7%89%88%E6%9D%83%E9%97%AE%E9%A2%98%E7%9A%84%E6%88%91%E5%BA%94%E8%AF%A5%E6%80%8E%E4%B9%88%E5%90%88%E7%90%86%E7%9A%84%E4%BD%BF%E7%94%A8%E8%BF%99%E4%BA%9B%E8%A1%A8%E6%83%85)。
 
 ## ℹ️关于 msemoji
@@ -76,7 +78,7 @@ msemoji.parse(document.body,{
 
 `className`对控制表情的 CSS 起到作用。它们默认会设置为`emoji`。一般来说，不用设置此项，除非网页上已有相同的 CSS Class 类名时，才需要更改此项。
 
-`folder`与文件后缀名相关，通过它来指定不同格式的表情。此参数会与您在`base`中指定的值（包括默认值）组合成完整目录，例如：`base` 值为`https://helloemoji.io/msemoji`，同时`folder`值为`/png`，则最终的链接为`https://helloemoji.io/msemoji/png`。默认值为`/72x72`。此值取决于文件夹的名字。关于本仓库有哪些文件夹可供选择，请参阅后文。
+`folder`与文件后缀名相关，通过它来指定不同格式的表情。此参数会与您在`base`中指定的值（包括默认值）组合成完整目录，例如：`base` 值为`https://helloemoji.io/msemoji`，同时`folder`值为`/png`，则最终的链接为`https://helloemoji.io/msemoji/png`。默认值为`72x72`。此值取决于文件夹的名字。关于本仓库有哪些文件夹可供选择，请参阅后文。
 
 注：您现在所看到的是脚本支持的一部分参数，它们最为常用。如果希望了解脚本都有哪些参数和额外功能，请访问 [Twemoji 文档](https://github.com/twitter/twemoji#object-as-parameter)。
 
@@ -89,7 +91,7 @@ msemoji.parse(document.body,{
 | 示例外观         | ![./src/72x72/1f600.png](./src/72x72/1f600.png) | ![./src/svg/1f600.svg](./src/svg/1f600.svg)                                               | ![./src/3D/1f600.png](./src/3D/1f600.png)                                                                    |
 | 对应的`ext`值    | `.png`                                          | `.svg`                                                                                    | `.png`                                                                                                       |
 | 对应的`folder`值 | `72x72`                                         | `svg`                                                                                     | `3D`                                                                                                         |
-| 特点           | 大小为`72x72`像素，体积与加载速度达到最佳平衡。不可缩放。总体积为10MB。       | 大小不定，可自由缩放并保持清晰。体积最低。总大小为9.5MB。                                                           | 大小为`256x256`像素。大部分拥有动态效果。总体积高达1.8GB。                                                                         |
+| 特点           | 大小为`72x72`像素，体积与加载速度达到最佳平衡。不可缩放。总体积约为10MB。      | 大小不定，可自由缩放并保持清晰。体积最低。总大小约为9.5MB。                                                          | 大小为`256x256`像素。大部分拥有动态效果。总体积高达1.8GB。                                                                         |
 | 优点           | 兼容性极佳，性能消耗少，加载较快。                               | 可自由缩放并保持清晰。体积最低并可获得更快的加载速度。                                                               | 唯一拥有动画的表情组，更加活泼。`256x256`像素的大小使放大后也能保持相当的清晰度。                                                                |
 | 缺点           | 不可缩放。在高分屏或以较大大小查看时较模糊。                          | 实时绘制，包含大量此类表情并频繁缩放可能会略微影响性能，尤其对于老设备来说。兼容性稍弱。[兼容性可在此处查看](https://caniuse.com/?search=svg)。 | 体积巨大，会拖慢加载速度。由于拥有动画，会占用较多性能，尤其对于老设备来说。兼容性极差，在不支持的浏览器上显示为静态PNG。[兼容性可在此处查看](https://caniuse.com/?search=apng)。 |
 
@@ -166,7 +168,9 @@ img.emoji {
 
 #### 1.为什么这里面会有一些 Twitter 的表情？
 
-微软每年更新 Emoji 的速度远没有其它平台快，一般新增表情都是随大版本更新的。今年的 Emoji 14.0 Twitter 已经更新了新的表情，但微软还没有，因此为了支持其它平台，现在只能用 Twitter 的表情先占位。请等候更新。
+原因一：微软每年更新 Emoji 的速度远没有其它平台快，一般新增表情都是随大版本更新的。若 Twitter 已经更新了新的表情，但微软还没有，则为了支持其它平台，只能用 Twitter 的表情先占位。当发生此情况时，您只能等候更新。
+
+原因二：表情的收集过程中可能会发生遗漏和命名错误现象，导致正确的表情不存在，被 Twemoji 占位。这不是正常现象。因此，如果您发现某个已经支持的表情属于 Twemoji 风格，请及时报告以获得修复。
 
 （另注：想要看看您最爱使用的 Emoji 是不是微软的？您可以在[这里](https://dellzhackintosh.github.io/emojitest.html)查询。）
 
@@ -176,7 +180,7 @@ img.emoji {
 
 1. 微软本身就不打算添加它们，因此也就没有必要加入了。
 
-2. 出于政治原因。微软都有理由不添加它们，更何况本人？另外，若某个国家更新了国旗，这里没及时更新，会引起不必要的麻烦。
+2. 出于政治原因。若某个国家更新了国旗，这里没及时更新，会引起不必要的麻烦。
 
 敬请谅解。这些 Emoji 将显示成您使用的平台的样式。如果您认为添加国家旗帜很有必要，您可以自行下载并补充。
 
@@ -210,7 +214,15 @@ https://www.fonts.com/content/microsoft-typography
 
 2. `https://raw.githubusercontents.com/dellzhackintosh/dellzhackintosh.github.io/master/MSEmojis`（请遵守`7ed.net`的使用说明，特别是**不要滥用**！）
 
-如果是脚本本身加载失败，则可以考虑换用`<script src="https://dellzhackintosh.github.io/msemoji.min.js" crossorigin="anonymous"></script>`。
+3. `https://gh.sourcegcdn.com/DellZHackintosh/msemoji/1.0.0/src/`（来自 [Source Global CDN](https://www.sourcegcdn.com/)）同样**不要滥用**，同时不允许空 Referer 请求。
+
+如果是脚本本身加载失败，则可以考虑换用：
+
+`<script src="https://dellzhackintosh.github.io/msemoji.min.js" crossorigin="anonymous"></script>`
+
+或（[Source Global CDN](https://www.sourcegcdn.com/)）
+
+`<script src="https://gh.sourcegcdn.com/DellZHackintosh/msemoji/1.0.0/src/script/msemoji.min.js"></script>`。
 
 当然，您也可以自己建一个 CDN，可以从 Releases 中获取文件。
 

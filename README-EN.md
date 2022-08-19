@@ -2,7 +2,7 @@
 
 [简体中文](./README.md) | **English**
 
-‼️Statement: I don't make emoji,I just carry the emoji.Please use them fairly in accordance with Microsoft's terms, as detailed in the document ["How did you resolve copyright issues? / How can I use these emojis reasonably? "](#3%E4%BD%A0%E6%98%AF%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3%E7%89%88%E6%9D%83%E9%97%AE%E9%A2%98%E7%9A%84%E6%88%91%E5%BA%94%E8%AF%A5%E6%80%8E%E4%B9%88%E5%90%88%E7%90%86%E7%9A%84%E4%BD%BF%E7%94%A8%E8%BF%99%E4%BA%9B%E8%A1%A8%E6%83%85).
+‼️Statement: I don't make emoji,I just carry the emoji.Please use them fairly in accordance with Microsoft's terms, as detailed in the document ["How did you resolve copyright issues? / How can I use these emojis reasonably? "](#3how-did-you-resolve-copyright-issues--how-can-i-use-these-emojis-reasonably).
 
 💬PS: Please understand that most of the content in this document uses machine translation, so it may not be properly expressed. You can help me translate it.
 

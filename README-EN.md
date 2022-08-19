@@ -19,7 +19,7 @@ Like Twemoji, this project can also replace the emoji on the web page with an im
 Include the following in your HTML <head></head> :
 
 ```
-<script src="https://cdn.jsdelivr.net/gh/DellZHackintosh/msemoji@1.0.0/src/script/msemoji.min.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/gh/DellZHackintosh/msemoji@1.0.1/src/script/msemoji.min.js" crossorigin="anonymous"></script>
 ```
 
 Then <body></body> add these in:

@@ -17,7 +17,7 @@
 在您的 HTML <head></head> 中加入以下内容：
 
 ```
-<script src="https://cdn.jsdelivr.net/gh/DellZHackintosh/msemoji@1.0.0/src/script/msemoji.min.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/gh/DellZHackintosh/msemoji@1.0.1/src/script/msemoji.min.js" crossorigin="anonymous"></script>
 ```
 
 然后在 <body></body> 中加入这些内容：
@@ -210,11 +210,11 @@ https://www.fonts.com/content/microsoft-typography
 
 `base`默认图像仓库地址为`https://raw.githubusercontent.com/DellZHackintosh/msemoji/main/src/`，可能会影响运行效果。如果出现这种问题，必须替换`base`默认值。下面提供一些可用的`base`值。
 
-1. `https://cdn.jsdelivr.net/gh/DellZHackintosh/msemoji@1.0.0/src/`（推荐。不过要记得，有挂掉的可能......）
+1. `https://cdn.jsdelivr.net/gh/DellZHackintosh/msemoji@1.0.1/src/`（推荐。不过要记得，有挂掉的可能......）
 
 2. `https://raw.githubusercontents.com/dellzhackintosh/dellzhackintosh.github.io/master/MSEmojis`（请遵守`7ed.net`的使用说明，特别是**不要滥用**！）
 
-3. `https://gh.sourcegcdn.com/DellZHackintosh/msemoji/1.0.0/src/`（来自 [Source Global CDN](https://www.sourcegcdn.com/)）同样**不要滥用**，同时不允许空 Referer 请求。
+3. `https://gh.sourcegcdn.com/DellZHackintosh/msemoji/1.0.1/src/`（来自 [Source Global CDN](https://www.sourcegcdn.com/)）同样**不要滥用**，同时不允许空 Referer 请求。
 
 如果是脚本本身加载失败，则可以考虑换用：
 
@@ -222,7 +222,7 @@ https://www.fonts.com/content/microsoft-typography
 
 或（[Source Global CDN](https://www.sourcegcdn.com/)）
 
-`<script src="https://gh.sourcegcdn.com/DellZHackintosh/msemoji/1.0.0/src/script/msemoji.min.js"></script>`。
+`<script src="https://gh.sourcegcdn.com/DellZHackintosh/msemoji/1.0.1/src/script/msemoji.min.js"></script>`。
 
 当然，您也可以自己建一个 CDN，可以从 Releases 中获取文件。
 

@@ -174,7 +174,7 @@ Reason 1: Microsoft updates Emoji every year far slower than other platforms, an
 
 Reason 2: Omissions and naming errors may occur during the collection of emojis, resulting in the correct emoji not existing and being placeholder with Twemoji. This is not normal. Therefore, if you find that an emoji that is already supported belongs to the Twemoji style, please report it in time to get a fix.
 
-(Note: Want to see if your favorite Emoji is Microsoft's? You can check [here](https://dellzhackintosh.github.io/emojitest.html). )
+(Note: Want to see if your favorite Emoji is Microsoft's? You can check [here](https://dellzhackintosh.github.io/emojitest-en.html). )
 
 #### 2.Why are there no national and regional flags?
 

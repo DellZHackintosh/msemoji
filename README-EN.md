@@ -1,3 +1,5 @@
+![./data/Banner.gif](./data/Banner.gif)
+
 # Microsoft Emoji（msemoji)
 
 [简体中文](./README.md) | **English**

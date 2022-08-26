@@ -1,4 +1,4 @@
-![./data/Banner.gif](./data/Banner.gif)
+[![./data/Banner.gif](https://raw.githubusercontents.com/DellZHackintosh/msemoji/main/data/Banner.gif)](https://raw.githubusercontent.com/DellZHackintosh/msemoji/main/data/Banner.gif)
 
 # Microsoft Emoji（msemoji)
 
@@ -16,13 +16,13 @@
 
 ## 🚀快速入门
 
-在您的 HTML <head></head> 中加入以下内容：
+在您的 HTML `<head></head>` 中加入以下内容：
 
 ```
 <script src="https://cdn.jsdelivr.net/gh/DellZHackintosh/msemoji@1.0.1/src/script/msemoji.min.js" crossorigin="anonymous"></script>
 ```
 
-然后在 <body></body> 中加入这些内容：
+然后在 `<body></body>` 中加入这些内容：
 
 ```
 <script>
@@ -90,7 +90,7 @@ msemoji.parse(document.body,{
 
 | 格式           | PNG                                             | SVG                                                                                       | APNG                                                                                                         |
 |:------------:|:-----------------------------------------------:|:-----------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------:|
-| 示例外观         | ![./src/72x72/1f600.png](./src/72x72/1f600.png) | ![./src/svg/1f600.svg](./src/svg/1f600.svg)                                               | ![./src/3D/1f600.png](./src/3D/1f600.png)                                                                    |
+| 示例外观         | [![./src/72x72/1f600.png](https://raw.githubusercontents.com/DellZHackintosh/msemoji/main/src/72x72/1f600.png)](https://raw.githubusercontent.com/DellZHackintosh/msemoji/main/src/72x72/1f600.png) | [![./src/svg/1f600.svg](https://raw.githubusercontents.com/DellZHackintosh/msemoji/main/src/svg/1f600.svg)](https://raw.githubusercontent.com/DellZHackintosh/msemoji/main/src/svg/1f600.svg)                                               | [![./src/3D/1f600.png](https://raw.githubusercontents.com/DellZHackintosh/msemoji/main/src/3D/1f600.png)](https://raw.githubusercontent.com/DellZHackintosh/msemoji/main/src/3D/1f600.png) |
 | 对应的`ext`值    | `.png`                                          | `.svg`                                                                                    | `.png`                                                                                                       |
 | 对应的`folder`值 | `72x72`                                         | `svg`                                                                                     | `3D`                                                                                                         |
 | 特点           | 大小为`72x72`像素，体积与加载速度达到最佳平衡。不可缩放。总体积约为10MB。      | 大小不定，可自由缩放并保持清晰。体积最低。总大小约为9.5MB。                                                          | 大小为`256x256`像素。大部分拥有动态效果。总体积高达1.8GB。                                                                         |
@@ -156,7 +156,7 @@ img.emoji {
 
 预览：
 
-![./data/Scheme_3.jpg](./data/Scheme_3.jpg)
+[![v22GHH.jpg](https://s1.ax1x.com/2022/08/26/v22GHH.jpg)](https://imgse.com/i/v22GHH)
 
 ### 💎特殊情况
 

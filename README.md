@@ -35,7 +35,7 @@ msemoji.parse(document.body);
 
 结果应该如下：
 
-![./data/Get-started.jpg](./data/Get-started.jpg)（中国大陆可能看不到效果，不用担心，可以参考[此文档的“📋中国大陆补充”](#%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86%E8%A1%A5%E5%85%85)。）
+[![v22N4I.jpg](https://s1.ax1x.com/2022/08/26/v22N4I.jpg)](https://imgse.com/i/v22N4I)（中国大陆可能看不到效果，不用担心，可以参考[此文档的“📋中国大陆补充”](#%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86%E8%A1%A5%E5%85%85)。）
 
 就是这么简单！msemoji 的执行函数就是`msemoji.parse()`。它可以通过两种方式转换表情为图片：
 
@@ -101,7 +101,7 @@ msemoji.parse(document.body,{
 
 现在让我们回顾一下快速入门。
 
-![./data/Get-started.jpg](./data/Get-started.jpg)
+[![v22N4I.jpg](https://s1.ax1x.com/2022/08/26/v22N4I.jpg)](https://imgse.com/i/v22N4I)
 
 如此之大的表情显然不是我们想要的，那么应该如何调整它呢？我们需要`CSS`的帮助！
 
@@ -122,7 +122,7 @@ img.emoji {
 
 优点：与文本对齐不会打断阅读的连贯，使它们看起来像是原生的字体。
 
-预览：![./data/Scheme_1.jpg](./data/Scheme_1.jpg)
+预览：[![v22tUA.jpg](https://s1.ax1x.com/2022/08/26/v22tUA.jpg)](https://imgse.com/i/v22tUA)
 
 #### 🥈方案二（来自 Flarum）
 
@@ -140,7 +140,9 @@ img.emoji {
 
 优点：使用表情通常就是要表达自己的心情，这样的设置使表情略微突出，恰到好处地增加了用户对它的关注。另外，使表情略微加高一点点也使细节更为明显，优化了在低分屏的阅读体验。
 
-预览：![./data/Scheme_2.jpg](./data/Scheme_2.jpg)
+预览：
+
+[![v22GHH.jpg](https://s1.ax1x.com/2022/08/26/v22GHH.jpg)](https://imgse.com/i/v22GHH)
 
 #### 🥉方案三（来自百度贴吧）
 

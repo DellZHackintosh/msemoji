@@ -1,8 +1,7 @@
-使用本仓库中的表情（包括它们的副本）时，请务必遵守微软的字体许可条款。相关的链接：
-When using emojis in this repository, including copies of them, you must comply with Microsoft's font licensing terms. Related Links:
+使用本仓库中的表情（包括它们的副本）时，请务必遵守微软的准则。相关的链接：
+When using emoticons in this repository, including copies of them, be sure to follow Microsoft's guidelines. Related Links:
 
-https://docs.microsoft.com/zh-cn/typography/fonts/font-faq
-https://www.fonts.com/content/microsoft-typography
+https://github.com/microsoft/fluentui-emoji
 
 请注意：这不包括3D版本，它们属于 Microsoft Teams。使用3D表情时应该更加谨慎。
 Note: This does not include the 3D version, they belong to Microsoft Teams. You should be more cautious when using 3D Emoji.

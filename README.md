@@ -74,13 +74,13 @@ msemoji.parse(document.body,{
 
 参数讲解：
 
-`base`指表情仓库的位置。例如，您可以指定其位置为：`https://example.msemoji.test`，也可以带有子目录：`https://helloemoji.io/msemoji`。指定表情仓库的位置取决于它们所在的地方。通常来说，您不需要使用此参数，脚本会默认使用本仓库，除非您需要换一个仓库。
+`base`指表情仓库的位置。例如，您可以指定其位置为：`https://example.com`，也可以带有子目录：`https://example.org/msemoji`。指定表情仓库的位置取决于它们所在的地方。通常来说，您不需要使用此参数，脚本会默认使用本仓库，除非您需要换一个仓库。
 
 `ext`指文件的后缀名。所有的表情文件名称结构都为“对应的 Unicode+后缀名”。可供选择的后缀有`.png`和`.svg`，后文会讲讲它们。
 
 `className`对控制表情的 CSS 起到作用。它们默认会设置为`emoji`。一般来说，不用设置此项，除非网页上已有相同的 CSS Class 类名时，才需要更改此项。
 
-`folder`与文件后缀名相关，通过它来指定不同格式的表情。此参数会与您在`base`中指定的值（包括默认值）组合成完整目录，例如：`base` 值为`https://helloemoji.io/msemoji`，同时`folder`值为`/png`，则最终的链接为`https://helloemoji.io/msemoji/png`。默认值为`72x72`。此值取决于文件夹的名字。关于本仓库有哪些文件夹可供选择，请参阅后文。
+`folder`与文件后缀名相关，通过它来指定不同格式的表情。此参数会与您在`base`中指定的值（包括默认值）组合成完整目录，例如：`base` 值为`https://example.org/msemoji`，同时`folder`值为`/png`，则最终的链接为`https://example.org/msemoji/png`。默认值为`72x72`。此值取决于文件夹的名字。关于本仓库有哪些文件夹可供选择，请参阅后文。
 
 注：您现在所看到的是脚本支持的一部分参数，它们最为常用。如果希望了解脚本都有哪些参数和额外功能，请访问 [Twemoji 文档](https://github.com/twitter/twemoji#object-as-parameter)。
 
@@ -190,11 +190,9 @@ img.emoji {
 
 #### 3.你是如何解决版权问题的？/我应该怎么合理的使用这些表情？
 
-只要遵守微软的字体许可条款即可。相关的链接：
+微软已开源 Fluent emoji。只需遵循其准则即可。请访问下面的链接了解更多。
 
-https://docs.microsoft.com/zh-cn/typography/fonts/font-faq
-
-https://www.fonts.com/content/microsoft-typography
+https://github.com/microsoft/fluentui-emoji
 
 **请注意：** 这不包括3D版本，它们属于 Microsoft Teams。使用3D表情时应该更加谨慎。
 

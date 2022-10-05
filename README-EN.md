@@ -76,13 +76,13 @@ msemoji.parse(document.body,{
 
 Parameter explanation:
 
-`base` refers to the location of the emoticon repository. For example, you can specify its location as: `https://example.msemoji.test` ,or you can have subdirectorys: `https://helloemoji.io/msemoji`. Specifying the location of emoticon warehouses depends on where they are located. In general, you do not need to use this parameter, the script will use this repository by default unless you need to change a repository.
+`base` refers to the location of the emoticon repository. For example, you can specify its location as: `https://example.com` ,or you can have subdirectorys: `https://example.org/msemoji`. Specifying the location of emoticon warehouses depends on where they are located. In general, you do not need to use this parameter, the script will use this repository by default unless you need to change a repository.
 
 `ext` refers to the suffix name of the file. All emoji file name structures are "corresponding Unicode+suffix names". Alternative suffixes are `.png` and `.svg`, which will be covered later.
 
 `className` works on CSS that controls emoji. They will be set to `emoji` by default. In general, you do not need to set this item unless you already have the same CSS Class class name on the page.
 
-`folder` is associated with a file suffix name, which allows you to specify an emoticon in a different format. This parameter will be combined with the values you specify in `base` (including default values) to form the full directory, for example: `base` values are `https://helloemoji.io/msemoji` and `folder` values are `/png`, then the final link is `https://helloemoji.io/msemoji/png`. The default value is `72x72`. This value depends on the name of the folder. See below for what folders are available in this repository.
+`folder` is associated with a file suffix name, which allows you to specify an emoticon in a different format. This parameter will be combined with the values you specify in `base` (including default values) to form the full directory, for example: `base` values are `https://example.org/msemoji` and `folder` values are `/png`, then the final link is `https://example.org/msemoji/png`. The default value is `72x72`. This value depends on the name of the folder. See below for what folders are available in this repository.
 
 Note: What you see now is some of the parameters supported by the script, which are the most commonly used. If you want to know what extra parameters are available in the script, visit [Twemoji Documentation](https://github.com/twitter/twemoji#object-as-parameter).
 
@@ -190,11 +190,9 @@ Thank you for your understanding. These emojis will appear in the style of the p
 
 #### 3.How did you resolve copyright issues? / How can I use these emojis reasonably?
 
-Just follow the Microsoft's font licensing terms. Related Links:
+Microsoft has opened source Fluent emoji. Just follow its guidelines. Please visit the link below to learn more.
 
-https://docs.microsoft.com/zh-cn/typography/fonts/font-faq
-
-https://www.fonts.com/content/microsoft-typography
+https://github.com/microsoft/fluentui-emoji
 
 **Note:**  This does not include 3D versions, they belong to Microsoft Teams. You should be more cautious when using 3D emojis.
 

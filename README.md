@@ -1,4 +1,4 @@
-[![./data/Banner.gif](https://raw.githubusercontents.com/DellZHackintosh/msemoji/main/data/Banner.gif)](https://raw.githubusercontent.com/DellZHackintosh/msemoji/main/data/Banner.gif)
+![Fluent Emoji](https://github.com/microsoft/fluentui-emoji/blob/main/art/readme_banner.webp)
 
 # Microsoft Emoji（msemoji)
 
@@ -8,7 +8,7 @@
 
 ## ℹ️关于 msemoji
 
-这是一个基于 [Twemoji](https://github.com/twitter/twemoji) 修改的微软风格表情 Emoji。
+这是一个微软风格表情 Emoji 存放仓库，并基于 [Twemoji](https://github.com/twitter/twemoji) 修改了其脚本以适配它们。
 
 #### 🌟亮点
 
@@ -68,7 +68,8 @@ msemoji.parse(document.body,{
     base: string,
     ext: string,
     className: string,
-    folder: string
+    folder: string,
+    high_contrast: bool
   });
 ```
 
@@ -82,20 +83,22 @@ msemoji.parse(document.body,{
 
 `folder`与文件后缀名相关，通过它来指定不同格式的表情。此参数会与您在`base`中指定的值（包括默认值）组合成完整目录，例如：`base` 值为`https://example.org/msemoji`，同时`folder`值为`/png`，则最终的链接为`https://example.org/msemoji/png`。默认值为`72x72`。此值取决于文件夹的名字。关于本仓库有哪些文件夹可供选择，请参阅后文。
 
+`high_contrast`用于适配新的高对比度风格。使用`true`（无需引号）以开启。默认为`false`。**注意：** 仅在`1.1.0`版本及更新版本内可用。
+
 注：您现在所看到的是脚本支持的一部分参数，它们最为常用。如果希望了解脚本都有哪些参数和额外功能，请访问 [Twemoji 文档](https://github.com/twitter/twemoji#object-as-parameter)。
 
 ### 🔢表情种类介绍
 
-本仓库提供了三种表情格式可供选择，您可以根据实际情况为您的网站选择合适的格式。
+本仓库提供了五种表情格式可供选择，您可以根据实际情况为您的网站选择合适的格式。
 
-| 格式           | PNG                                             | SVG                                                                                       | APNG                                                                                                         |
-|:------------:|:-----------------------------------------------:|:-----------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------:|
-| 示例外观         | [![./src/72x72/1f600.png](https://raw.githubusercontents.com/DellZHackintosh/msemoji/main/src/72x72/1f600.png)](https://raw.githubusercontent.com/DellZHackintosh/msemoji/main/src/72x72/1f600.png) | [![./src/svg/1f600.svg](https://raw.githubusercontents.com/DellZHackintosh/msemoji/main/src/svg/1f600.svg)](https://raw.githubusercontent.com/DellZHackintosh/msemoji/main/src/svg/1f600.svg)                                               | [![./src/3D/1f600.png](https://raw.githubusercontents.com/DellZHackintosh/msemoji/main/src/3D/1f600.png)](https://raw.githubusercontent.com/DellZHackintosh/msemoji/main/src/3D/1f600.png) |
-| 对应的`ext`值    | `.png`                                          | `.svg`                                                                                    | `.png`                                                                                                       |
-| 对应的`folder`值 | `72x72`                                         | `svg`                                                                                     | `3D`                                                                                                         |
-| 特点           | 大小为`72x72`像素，体积与加载速度达到最佳平衡。不可缩放。总体积约为10MB。      | 大小不定，可自由缩放并保持清晰。体积最低。总大小约为9.5MB。                                                          | 大小为`256x256`像素。大部分拥有动态效果。总体积高达1.8GB。                                                                         |
-| 优点           | 兼容性极佳，性能消耗少，加载较快。                               | 可自由缩放并保持清晰。体积最低并可获得更快的加载速度。                                                               | 唯一拥有动画的表情组，更加活泼。`256x256`像素的大小使放大后也能保持相当的清晰度。                                                                |
-| 缺点           | 不可缩放。在高分屏或以较大大小查看时较模糊。                          | 实时绘制，包含大量此类表情并频繁缩放可能会略微影响性能，尤其对于老设备来说。兼容性稍弱。[兼容性可在此处查看](https://caniuse.com/?search=svg)。 | 体积巨大，会拖慢加载速度。由于拥有动画，会占用较多性能，尤其对于老设备来说。兼容性极差，在不支持的浏览器上显示为静态PNG。[兼容性可在此处查看](https://caniuse.com/?search=apng)。 |
+| 变体风格         | 2D                      | 3D                                              | Flat                      | Color                                                                            | High Contrast                                                                                              |
+|:------------:|:-----------------------:|:-----------------------------------------------:|:-------------------------:|:--------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------:|
+| 示例外观         | ![](./src/2D/1f600.png) | ![](./src/3D/1f600.png)                         | ![](./src/Flat/1f600.svg) | ![](./src/Color/1f600.svg)                                                       | ![](./src/High%20Contrast/1f600.svg)                                                                       |
+| 对应的`ext`值    | `.png`                  | `.png`                                          | `.svg`                    | `.svg`                                                                           | `.svg`                                                                                                     |
+| 对应的`folder`值 | `2D`                    | `3D`                                            | `Flat`                    | `Color`                                                                          | `High Contrast`                                                                                            |
+| 特点           | 大小为`72x72`像素。不可缩放。      | 大小为`256x256`，相对`2D`而言更清晰、立体与活泼。                 | 可缩放。风格与`2D`相同，体积较小。       | 可缩放。风格与`3D`相同。                                                                   | 可缩放。适用于残疾人士或希望使 Emoji 显示为黑白字体的人士。                                                                          |
+| 优点           | 兼容性佳，性能消耗少，加载快。         | 兼容性佳，性能消耗少，分辨率更大，更不易模糊。                         | 在任何情况下保持清晰。加载快。           | 在任何情况下保持清晰。                                                                      | 体积极小。使残疾人士能够更容易阅读。                                                                                         |
+| 缺点           | 不可缩放。在高分屏或以较大大小查看时较模糊。  | 不可缩放。在高分屏或以较大大小查看时可能会模糊。相对`2D`而言体积更大，可能会减慢加载速度。 | 兼容性略弱。大量使用可能会略微影响性能。      | 受限于特殊的位图光栅化方式，在某些设备上显示或缩放时可能有问题，在细节上不如`3D`风格。相对`Flat`体积更大，可能会减慢加载速度。大量使用可能会影响性能。 | 当前提供的`high_contrast`参数实现的功能略有问题，即某些肤色变体的 Emoji 无法正确显示（Twemoji 的奇怪转码逻辑……），且尚无很好的解决方案。在此风格下避免使用非默认肤色的 Emoji。 |
 
 ### ✨调整表情的显示效果
 
@@ -118,11 +121,9 @@ img.emoji {
 
 描述：
 
-> 这将确保表情符号从与它们同一排的文本中获取与文本相同的宽度和高度。它还在每个表情符号前后增加了一点空间，并将它们向上移动一点，以更好的对齐文本。
+> 这将确保 Emoji 从与它们同一排的文本中获取与文本相同的宽度和高度。它还在 Emoji 前后增加了一点空间，并将它们向上移动一点，以更好的对齐文本。
 
 优点：与文本对齐不会打断阅读的连贯，使它们看起来像是原生的字体。
-
-预览：[![v22tUA.jpg](https://s1.ax1x.com/2022/08/26/v22tUA.jpg)](https://imgse.com/i/v22tUA)
 
 #### 🥈方案二（来自 Flarum）
 
@@ -136,13 +137,9 @@ img.emoji {
 
 描述：
 
-> 每个表情都会比同一排的文本略高一点，同时也会在每个表情符号前后增加一点空间。
+> 每个表情都会比同一排的文本略高一点，同时也会在每个 Emoji 前后增加一点空间。
 
 优点：使用表情通常就是要表达自己的心情，这样的设置使表情略微突出，恰到好处地增加了用户对它的关注。另外，使表情略微加高一点点也使细节更为明显，优化了在低分屏的阅读体验。
-
-预览：
-
-[![v22GHH.jpg](https://s1.ax1x.com/2022/08/26/v22GHH.jpg)](https://imgse.com/i/v22GHH)
 
 #### 🥉方案三（来自百度贴吧）
 
@@ -153,10 +150,6 @@ img.emoji {
 ```
 
 优点：想要您的表情最为突出吗？使用这个设置可以让人一眼就注意到它们。我们同时也建议将它们用于3D表情中，以突出它们的立体和动画效果。
-
-预览：
-
-[![v22GHH.jpg](https://s1.ax1x.com/2022/08/26/v22GHH.jpg)](https://imgse.com/i/v22GHH)
 
 ### 💎特殊情况
 
@@ -170,11 +163,9 @@ img.emoji {
 
 ## 🤔常见问题
 
-#### 1.为什么这里面会有一些 Twitter 的表情？
+#### 1.为什么一些表情无法显示？
 
-原因一：微软每年更新 Emoji 的速度远没有其它平台快，一般新增表情都是随大版本更新的。若 Twitter 已经更新了新的表情，但微软还没有，则为了支持其它平台，只能用 Twitter 的表情先占位。当发生此情况时，您只能等候更新。
-
-原因二：表情的收集过程中可能会发生遗漏和命名错误现象，导致正确的表情不存在，被 Twemoji 占位。这不是正常现象。因此，如果您发现某个已经支持的表情属于 Twemoji 风格，请及时报告以获得修复。
+微软每年更新 Emoji 的速度不快，一般新增表情都是随大版本更新的。当发生此情况时，您只能等候更新。
 
 （另注：想要看看您最爱使用的 Emoji 是不是微软的？您可以在[这里](https://dellzhackintosh.github.io/emojitest.html)查询。）
 
@@ -186,17 +177,13 @@ img.emoji {
 
 2. 出于政治原因。若某个国家更新了国旗，这里没及时更新，会引起不必要的麻烦。
 
-敬请谅解。这些 Emoji 将显示成您使用的平台的样式。如果您认为添加国家旗帜很有必要，您可以自行下载并补充。
+敬请谅解。这些 Emoji 将显示成您使用的平台的样式。如果您认为添加国家旗帜很有必要，您可以自行寻找并补充。
 
 #### 3.你是如何解决版权问题的？/我应该怎么合理的使用这些表情？
 
 微软已开源 Fluent emoji。只需遵循其准则即可。请访问下面的链接了解更多。
 
 https://github.com/microsoft/fluentui-emoji
-
-**请注意：** 这不包括3D版本，它们属于 Microsoft Teams。使用3D表情时应该更加谨慎。
-
-***
 
 另外，msemoji 的脚本修改自 twemoji，它的许可证继承 twemoji，为 MIT 许可证。
 
@@ -207,6 +194,8 @@ https://github.com/microsoft/fluentui-emoji
 #### 5.如何处理遇到的 Bug？
 
 欢迎任何人通过 issue 反馈问题！反馈时请详细描述哪个文件有问题，格式是什么，遇到什么问题以及如何解决。如果可以，也欢迎您进行 Pull requests。
+
+**注意：** 请先查看是否已提到您的问题。
 
 ## 📋中国大陆补充
 
@@ -234,8 +223,6 @@ Microsoft，设计了表情集；
 
 Twitter，提供了 Twemoji，并可修改、自定义。
 
-Emojipedia，保存了全套表情集。
-
 ## 📝任务列表
 
 - [x] 1.增加 SVG 版本
@@ -243,3 +230,5 @@ Emojipedia，保存了全套表情集。
 - [x] 2.由 Twemoji 脚本修改一份 MSemoji 脚本。
 
 - [ ] 3.每年更新至少一次。
+
+

@@ -1,4 +1,4 @@
-![./data/Banner.gif](./data/Banner.gif)
+![Fluent Emoji](https://github.com/microsoft/fluentui-emoji/blob/main/art/readme_banner.webp)
 
 # Microsoft Emoji（msemoji)
 
@@ -10,7 +10,7 @@
 
 ## ℹ️About msemoji
 
-This is a Microsoft-style emoji based on [Twemoji](https://github.com/twitter/twemoji)  modifications.
+This is a repository for Microsoft-style emojis, and its scripts have been modified based on [Twemoji](https://github.com/twitter/twemoji) to make them compatible.
 
 #### 🌟Highlight
 
@@ -84,20 +84,22 @@ Parameter explanation:
 
 `folder` is associated with a file suffix name, which allows you to specify an emoticon in a different format. This parameter will be combined with the values you specify in `base` (including default values) to form the full directory, for example: `base` values are `https://example.org/msemoji` and `folder` values are `/png`, then the final link is `https://example.org/msemoji/png`. The default value is `72x72`. This value depends on the name of the folder. See below for what folders are available in this repository.
 
+`high_contrast` is used to adapt to the new high contrast style. Use `true` (without quotes) to enable it. The default is `false`. **Note**: Only available in version 1.1.0 and later.
+
 Note: What you see now is some of the parameters supported by the script, which are the most commonly used. If you want to know what extra parameters are available in the script, visit [Twemoji Documentation](https://github.com/twitter/twemoji#object-as-parameter).
 
 ### 🔢Introduction to the formats of emoji
 
 This repository provides three emoji formats to choose from, and you can choose the right format for your website according to the actual situation.
 
-| Formats                          | PNG                                                                                                                                    | SVG                                                                                                                                                                                                                                                     | APNG                                                                                                                                                                                                                                                                                            |
-|:--------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-| Example Appearance               | ![./src/72x72/1f600.png](./src/72x72/1f600.png)                                                                                        | ![./src/svg/1f600.svg](./src/svg/1f600.svg)                                                                                                                                                                                                             | ![./src/3D/1f600.png](./src/3D/1f600.png)                                                                                                                                                                                                                                                       |
-| The Corresponding `ext` Value    | `.png`                                                                                                                                 | `.svg`                                                                                                                                                                                                                                                  | `.png`                                                                                                                                                                                                                                                                                          |
-| The Corresponding `folder` Value | `72x72`                                                                                                                                | `svg`                                                                                                                                                                                                                                                   | `3D`                                                                                                                                                                                                                                                                                            |
-| Features                         | The size is `72x72` pixels, and the volume is optimally balanced with the loading speed. Not scalable. The total volume is about 10MB. | Free to scale and maintain clarity. Lowest volume. The total size is about 9.5MB.                                                                                                                                                                       | The size is `256x256` pixels. Most have dynamic effects. The total volume is up to 1.8GB.                                                                                                                                                                                                       |
-| Advantage                        | Excellent compatibility, low performance consumption and fast loading.                                                                 | Free to scale and maintain clarity.Lowest volume and load faster.                                                                                                                                                                                       | The only emoji group with animations, more lively. The size of the `256x256` pixels allows for considerable sharpness even when zoomed in.                                                                                                                                                      |
-| Disadvantages                    | Not scalable. Blurry when viewed at high resolution screens or at a larger size.                                                       | Draw in real time. Including a large number of such emoticons and frequent scaling can slightly affect performance, especially for older devices. Compatibility is slightly weaker. [Compatibility can be found here](https://caniuse.com/?search=svg). | It is huge and will slow down the loading speed. Having animations consumes a lot of performance, which is very serious for older devices. Extremely poor compatibility and appears as static PNG on unsupported browsers. [Compatibility can be found here](https://caniuse.com/?search=apng). |
+| Variant style                    | 2D                                                                              | 3D                                                                                                                               | Flat                                                                        | Color                                                                                                                                                                                                                   | High Contrast                                                                                                                                                                                                                                                                                                |
+|:--------------------------------:|:-------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+| Example Appearance               | ![](./src/2D/1f600.png)                                                         | ![](./src/3D/1f600.png)                                                                                                          | ![](./src/Flat/1f600.svg)                                                   | ![](./src/Color/1f600.svg)                                                                                                                                                                                              | ![](./src/High%20Contrast/1f600.svg)                                                                                                                                                                                                                                                                         |
+| The corresponding `ext` value    | `.png`                                                                          | `.png`                                                                                                                           | `.svg`                                                                      | `.svg`                                                                                                                                                                                                                  | `.svg`                                                                                                                                                                                                                                                                                                       |
+| The corresponding `folder` value | `2D`                                                                            | `3D`                                                                                                                             | `Flat`                                                                      | `Color`                                                                                                                                                                                                                 | `High Contrast`                                                                                                                                                                                                                                                                                              |
+| Features                         | The size is `72x72` pixels. Not scalable.                                       | The size is `256x256`, which is clearer, more three-dimensional and lively than `2D` Scalable. Same style as `2D`, smaller size. | Scalable. Same style as `2D`, small size.                                   | Scalable. Same style as `3D`.                                                                                                                                                                                           | Scalable. Suitable for people with disabilities or those who want to display emoji in black and white font.                                                                                                                                                                                                  |
+| Pros                             | Good compatibility, low performance consumption, fast loading.                  | Good compatibility, less performance consumption, larger resolution, less blurry.                                                | Be clear in any situation. Fast loading.                                    | Be clear in any situation.                                                                                                                                                                                              | Actively small size. Make it easier for people with disabilities to read.                                                                                                                                                                                                                                    |
+| Cons                             | Not scalable. Blurry on high-resolution screens or when viewed at larger sizes. | Not scalable. May be blurry when viewed in high resolution screens or at larger sizes. Larger than `2D` may slow down loading.   | Slightly weaker compatibility. Heavy usage may slightly affect performance. | Limited by special bitmap rasterization, it may be problematic to display or scale on some devices, and is not as detailed as `3D` style. Larger than `Flat` may slow down loading. Heavy usage can affect performance. | The currently provided `high_contrast` parameter implements a slight issue with the functionality that emoji for some skin tone variants does not display correctly (Twemoji's weird transcoding logic...), and there is no good solution yet. Avoid using emoji with a non-default skin tone in this style. |
 
 ### ✨Adjust the display of Emoji
 
@@ -124,8 +126,6 @@ Describe:
 
 Advantage: Aligning with text does not interrupt the coherence of reading, making them look like native fonts.
 
-Preview:![./data/Scheme_1.jpg](./data/Scheme_1.jpg)
-
 #### 🥈Scheme 2 \(From Flarum\)
 
 ```
@@ -142,8 +142,6 @@ Describe:
 
 Advantage: Using emojis is usually to express your mood, such a setting makes the emoji slightly prominent, just right to increase the user's attention to it. In addition, making the emoji a little higher also makes the details more obvious, optimizing the reading experience on low-resolution screens.
 
-Preview:![./data/Scheme_2.jpg](./data/Scheme_2.jpg)
-
 #### 🥉Scheme 3 \(From Baidu Tieba\)
 
 ```
@@ -153,10 +151,6 @@ img.emoji {
 ```
 
 Advantage: Want your emoji to stand out the most? Use this setting to make people notice them at a glance. We also recommend using them in 3D Emoji to highlight their stereoscopic and animated effects.
-
-Preview:
-
-![./data/Scheme_3.jpg](./data/Scheme_3.jpg)
 
 ### 💎Special circumstances
 
@@ -170,13 +164,11 @@ Here are some ideas although you can do in other ways.
 
 ## 🤔FAQ
 
-#### 1.Why are there some Twitter emojis here?
+#### Why can't some emojis be displayed?
 
-Reason 1: Microsoft updates Emoji every year far slower than other platforms, and generally new Emoji is updated with large versions. If Twitter has updated the new Emoji, but Microsoft has not, in order to support other platforms, only Twemoji can hold the place. When this happens, you can only wait for an update.
+Microsoft does not update emojis very quickly each year, and new emojis are generally added with major version updates. When this happens, you can only wait for the update.
 
-Reason 2: Omissions and naming errors may occur during the collection of emojis, resulting in the correct emoji not existing and being placeholder with Twemoji. This is not normal. Therefore, if you find that an emoji that is already supported belongs to the Twemoji style, please report it in time to get a fix.
-
-(Note: Want to see if your favorite Emoji is Microsoft's? You can check [here](https://dellzhackintosh.github.io/emojitest-en.html). )
+(Note: Want to see if your favorite emojis are from Microsoft? You can check it out [here](https://dellzhackintosh.github.io/emojitest.html).)
 
 #### 2.Why are there no national and regional flags?
 
@@ -186,17 +178,13 @@ There are two reasons for this:
 
 2. For political reasons. If a country updates its flag, it is not updated here in time, which will cause unnecessary trouble.
 
-Thank you for your understanding. These emojis will appear in the style of the platform you are using. If you think it is necessary to add a national flag, you can download and supplement it yourself.
+Please understand that these emojis will be displayed in the style of the platform you are using. If you think it is necessary to add national flags, you can search for and add them yourself.
 
 #### 3.How did you resolve copyright issues? / How can I use these emojis reasonably?
 
 Microsoft has opened source Fluent emoji. Just follow its guidelines. Please visit the link below to learn more.
 
 https://github.com/microsoft/fluentui-emoji
-
-**Note:**  This does not include 3D versions, they belong to Microsoft Teams. You should be more cautious when using 3D emojis.
-
-***
 
 In addition, the script of msemoji is modified from twemoji, and its license is MIT license, inherits from twemoji.
 
@@ -208,13 +196,13 @@ No, the reason is that it takes a lot of effort. Also, as with the project name,
 
 Anyone is welcome to report a problem via issue! When giving feedback, please describe in detail which file has the problem, what the format is, what problem is encountered, and how to fix it. If you can, you are also welcome to make Pull requests.
 
+**Note:** Please check if your question has already been mentioned before.
+
 ## ❤Thanks for
 
 Microsoft, designed the Emoji sets.;
 
 Twitter, Provided the Twemoji and can be modified and customized.
-
-Emojipedia, saved the full set of emoji sets.
 
 ## 📝Task list
 

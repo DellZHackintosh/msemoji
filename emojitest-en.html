@@ -1,0 +1,78 @@
+<html>
+<head>
+<title>Emoji Test</title>
+<style>
+body { 
+  background-image: url(./background.jpg);
+  background-repeat: no-repeat; 
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+.test {
+  background-color:rgba(255,255,255,0.5);
+  border-radius: 12px;
+  min-height: 100%;
+  padding: 10px;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  text-align:center;
+  box-shadow: 0 0px 10px 0 rgb(0 0 0 / 20%), 0 0px 10px 0 rgb(0 0 0 / 20%);
+}
+
+#emoji {
+  width:50%;
+}
+
+img.emoji {
+   width:72px;
+   height:72px;
+}
+</style>
+<link rel="stylesheet" type="text/css" href="./Fonts/HarmonyOSFont.css">
+<script src="https://cdn.jsdelivr.net/gh/DellZHackintosh/msemoji@1.0.0/src/script/msemoji.min.js" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>
+ function choice() {
+	function choice() {
+		let userInput = ["/Flat", "/Color", "/High Contrast"];
+		if (userInput.includes($("#choice").val())) {
+			return '.svg';
+		} else {
+			return '.png';
+		}
+	}
+</script>
+<link rel="shortcut icon" href=" ./favicon.ico" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+</head>
+<body>
+ <div class="test">
+  <p>
+  <select id="choice">
+   <option value="/2D">2D</option>
+   <option value="/3D">3D</option>
+   <option value="/Flat">Flat</option>
+   <option value="/Color">Color</option>
+   <option value="/High Contrast">High Contrast</option>
+  </select>
+  <input type="text" name="emoji" id="emoji">
+  <button type="button" onclick="getemoji()">Query</button>
+  </p>
+  <br />
+  <script type="text/javascript">
+ function getemoji() {
+  document.getElementById('content').innerHTML =
+    msemoji.parse($("#emoji").val(),  {
+    ext: choice(),
+    folder: $("#choice").val()
+  });
+  }
+  </script>
+  <div id="content">
+    <p style="text-align:center;">Select the format you want to view, then enter the emoji in the input box above, and finally click the "Query" button to preview the emoji.</p>
+  </div>
+ </div>
+</body>
+</html>

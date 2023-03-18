@@ -1,0 +1,86 @@
+<html>
+<head>
+<title>Emoji Test</title>
+<style>
+body { 
+  background-image: url(./background.jpg);
+  background-repeat: no-repeat; 
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+.test {
+  background-color:rgba(255,255,255,0.5);
+  border-radius: 12px;
+  min-height: 100%;
+  padding: 10px;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  text-align:center;
+  box-shadow: 0 0px 10px 0 rgb(0 0 0 / 20%), 0 0px 10px 0 rgb(0 0 0 / 20%);
+}
+
+#emoji {
+  width:50%;
+}
+
+img.emoji {
+   width:72px;
+   height:72px;
+}
+</style>
+<link rel="stylesheet" type="text/css" href="./Fonts/HarmonyOSFont.css">
+<script src="https://gh.sourcegcdn.com/DellZHackintosh/msemoji/1.1.0/src/script/msemoji.min.js"></script>
+<script src="https://upcdn.b0.upaiyun.com/libs/jquery/jquery-2.0.2.min.js"></script>
+<script>
+	function choice() {
+		let userInput = ["/Flat", "/Color", "/High Contrast"];
+		if (userInput.includes($("#choice").val())) {
+			return '.svg';
+		} else {
+			return '.png';
+		}
+	}
+ function ifraw() {
+  if ($("#RAW").prop("checked")) {
+   return 'https://raw.gitmirror.com/DellZHackintosh/msemoji/main/src';
+  } else {
+   return 'https://raw.githubusercontent.com/DellZHackintosh/msemoji/main/src';
+  }
+ }
+</script>
+<link rel="shortcut icon" href=" ./favicon.ico" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+</head>
+<body>
+ <div class="test">
+  <p>
+  <select id="choice">
+   <option value="/2D">2D</option>
+   <option value="/3D">3D</option>
+   <option value="/Flat">Flat</option>
+   <option value="/Color">Color</option>
+   <option value="/High Contrast">High Contrast</option>
+  </select>
+  <input type="text" name="emoji" id="emoji">
+  <input type="checkbox" id="RAW">使用加速 RAW。
+  <button type="button" onclick="getemoji()">查询</button>
+  </p>
+  <br />
+  <script type="text/javascript">
+ function getemoji() {
+  document.getElementById('content').innerHTML =
+    msemoji.parse($("#emoji").val(),  {
+    base: ifraw(),
+    ext: choice(),
+    folder: $("#choice").val()
+  });
+  }
+  </script>
+  <div id="content">
+    <p style="text-align:center;">选择要查看的格式，然后在上面的输入框中输入表情 Emoji，最后点击“查询”按钮即可预览表情。</p>
+  </div>
+ </div>
+</body>
+</html>

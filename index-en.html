@@ -14,19 +14,14 @@
     h1 {
       font-size: 36px;
     }
-    h1 .emoji {
-      width: 36px;
-      height: 36px;
-      margin-bottom: -8px;
-    }
     a, a:visited {
       color: #777;
     }
-    a .emoji {
-      border: 0;
-      width: 16px;
-      height: 16px;
-      margin-bottom: -2px;
+    img.emoji {
+      height: 1em;
+      width: 1em;
+      margin: 0 .05em 0 .1em;
+      vertical-align: -0.1em;
     }
     </style>
     <script>
@@ -36,13 +31,13 @@
     </script>
   </head>
   <body>
-    <h1>✨MSEmoji✨</h1>
+    <h1>🌟MSEmoji✨</h1>
     <h2>Meet msemoji - wherever😃</h2>
     <p>Microsoft Emoji, familiar, friendly, and modern</p>
     <p><strong>Current version: 1.1.0</strong></p>
     <p><a href="https://github.com/DellZHackintosh/msemoji">View this project➡️</a> or <a href="./emojitest-en.html">preview effect🕶️</a></p>
     <p><strong>Note: </strong>This is not an official repository. Image rights belong to <a href=“https://github.com/microsoft/fluentui-emoji”>Microsoft</a>, and the code comes from <a href=“https://github.com/twitter/twemoji”>Twitter</a>.</p>
-    <script src="https://cdn.jsdelivr.net/gh/DellZHackintosh/msemoji@1.1.0/src/script/msemoji.min.js"></script>
+    <script src="./msemoji.min.js"></script>
     <script>
       msemoji.parse(document.body);
     </script>

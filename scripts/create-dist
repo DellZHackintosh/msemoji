@@ -1,0 +1,63 @@
+#!/usr/bin/env node
+
+/*! Copyright Twitter Inc. and other contributors. Licensed under MIT *//*
+    https://github.com/twitter/twemoji/blob/gh-pages/LICENSE
+*/
+
+/*! msemoji is modified from twemoji by DaleZ(DellZHackintosh). Licensed inherits Twemoji. */
+
+const fs = require('fs-extra');
+const path = require('path');
+const { spawnSync } = require('child_process');
+const { getIntegrityHash } = require('./utils');
+
+function file(...which) {
+  return path.join(__dirname, '..', ...which);
+}
+
+function distFile(...which) {
+  return path.join(__dirname, '..', 'dist', ...which);
+}
+
+fs.writeFileSync(
+  distFile('msemoji.npm.js'),
+  [
+    'var location = global.location || {};',
+    fs.readFileSync(distFile('msemoji.js')),
+    'if (!location.protocol) {',
+    '  msemoji.base = msemoji.base.replace(/^http:/, "");',
+    '}',
+    'module.exports = msemoji;'
+  ].join('\n')
+);
+
+fs.writeFileSync(
+  distFile('msemoji.amd.js'),
+  'define(function () {\n' +
+    fs.readFileSync(distFile('msemoji.js')).toString().replace(
+      /^(.)/gm, '  $1'
+    ) +
+  '\n  return msemoji;\n});'
+);
+
+spawnSync(
+  'yarn',
+  [
+    'uglifyjs',
+    '--verbose',
+    distFile('msemoji.js'),
+    '-o',
+    distFile('msemoji.tmp.js')
+  ],
+  {
+    shell: process.platform === 'win32'
+  }
+);
+
+const copyright = '/*! Copyright Twitter Inc. and other contributors. Licensed under MIT */';
+const addition = '/*! msemoji is modified from twemoji by DaleZ(DellZHackintosh). Licensed inherits Twemoji. */';
+const minifiedContents = fs.readFileSync(distFile('msemoji.tmp.js'));
+fs.unlinkSync(distFile('msemoji.tmp.js'));
+
+fs.writeFileSync(distFile('msemoji.min.js'), `${copyright}\n${addition}\n${minifiedContents}`);
+fs.writeFileSync(distFile('msemoji.esm.js'), `${copyright}\n${addition}\n${minifiedContents}\nexport default msemoji;`);

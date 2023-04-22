@@ -19,7 +19,7 @@
 在您的 HTML `<head></head>` 中加入以下内容：
 
 ```
-<script src="https://cdn.jsdelivr.net/gh/DellZHackintosh/msemoji@1.0.1/src/script/msemoji.min.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/gh/DellZHackintosh/msemoji@1.1.1/src/script/msemoji.min.js" crossorigin="anonymous"></script>
 ```
 
 然后在 `<body></body>` 中加入这些内容：
@@ -69,7 +69,7 @@ msemoji.parse(document.body,{
     ext: string,
     className: string,
     folder: string,
-    high_contrast: bool
+    high_contrast: boolean
   });
 ```
 
@@ -85,20 +85,22 @@ msemoji.parse(document.body,{
 
 `high_contrast`用于适配新的高对比度风格。使用`true`（无需引号）以开启。默认为`false`。**注意：** 仅在`1.1.0`版本及更新版本内可用。
 
+`version`仅为一个变量，记录了当前版本。我们预先提供它以便不时之需。**注意：** 仅在`1.1.1`版本及更新版本内可用。
+
 注：您现在所看到的是脚本支持的一部分参数，它们最为常用。如果希望了解脚本都有哪些参数和额外功能，请访问 [Twemoji 文档](https://github.com/twitter/twemoji#object-as-parameter)。
 
 ### 🔢表情种类介绍
 
 本仓库提供了五种表情格式可供选择，您可以根据实际情况为您的网站选择合适的格式。
 
-| 变体风格         | 2D                      | 3D                                              | Flat                      | Color                                                                            | High Contrast                                                                                              |
-|:------------:|:-----------------------:|:-----------------------------------------------:|:-------------------------:|:--------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------:|
-| 示例外观         | ![](./src/2D/1f600.png) | ![](./src/3D/1f600.png)                         | ![](./src/Flat/1f600.svg) | ![](./src/Color/1f600.svg)                                                       | ![](./src/High%20Contrast/1f600.svg)                                                                       |
-| 对应的`ext`值    | `.png`                  | `.png`                                          | `.svg`                    | `.svg`                                                                           | `.svg`                                                                                                     |
-| 对应的`folder`值 | `2D`                    | `3D`                                            | `Flat`                    | `Color`                                                                          | `High Contrast`                                                                                            |
-| 特点           | 大小为`72x72`像素。不可缩放。      | 大小为`256x256`，相对`2D`而言更清晰、立体与活泼。                 | 可缩放。风格与`2D`相同，体积较小。       | 可缩放。风格与`3D`相同。                                                                   | 可缩放。适用于残疾人士或希望使 Emoji 显示为黑白字体的人士。                                                                          |
-| 优点           | 兼容性佳，性能消耗少，加载快。         | 兼容性佳，性能消耗少，分辨率更大，更不易模糊。                         | 在任何情况下保持清晰。加载快。           | 在任何情况下保持清晰。                                                                      | 体积极小。使残疾人士能够更容易阅读。                                                                                         |
-| 缺点           | 不可缩放。在高分屏或以较大大小查看时较模糊。  | 不可缩放。在高分屏或以较大大小查看时可能会模糊。相对`2D`而言体积更大，可能会减慢加载速度。 | 兼容性略弱。大量使用可能会略微影响性能。      | 受限于特殊的位图光栅化方式，在某些设备上显示或缩放时可能有问题，在细节上不如`3D`风格。相对`Flat`体积更大，可能会减慢加载速度。大量使用可能会影响性能。 | 当前提供的`high_contrast`参数实现的功能略有问题，即某些肤色变体的 Emoji 无法正确显示（Twemoji 的奇怪转码逻辑……），且尚无很好的解决方案。在此风格下避免使用非默认肤色的 Emoji。 |
+| 变体风格         | 2D                      | 3D                                              | Flat                      | Color                                                                            | High Contrast                                                                                                                 |
+|:------------:|:-----------------------:|:-----------------------------------------------:|:-------------------------:|:--------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------:|
+| 示例外观         | ![](./src/2D/1f600.png) | ![](./src/3D/1f600.png)                         | ![](./src/Flat/1f600.svg) | ![](./src/Color/1f600.svg)                                                       | ![](./src/High%20Contrast/1f600.svg)                                                                                          |
+| 对应的`ext`值    | `.png`                  | `.png`                                          | `.svg`                    | `.svg`                                                                           | `.svg`                                                                                                                        |
+| 对应的`folder`值 | `2D`                    | `3D`                                            | `Flat`                    | `Color`                                                                          | `High Contrast`                                                                                                               |
+| 特点           | 大小为`72x72`像素。不可缩放。      | 大小为`256x256`，相对`2D`而言更清晰、立体与活泼。                 | 可缩放。风格与`2D`相同，体积较小。       | 可缩放。风格与`3D`相同。                                                                   | 可缩放。适用于残疾人士或希望使 Emoji 显示为黑白字体的人士。                                                                                             |
+| 优点           | 兼容性佳，性能消耗少，加载快。         | 兼容性佳，性能消耗少，分辨率更大，更不易模糊。                         | 在任何情况下保持清晰。加载快。           | 在任何情况下保持清晰。                                                                      | 体积极小。使残疾人士能够更容易阅读。                                                                                                            |
+| 缺点           | 不可缩放。在高分屏或以较大大小查看时较模糊。  | 不可缩放。在高分屏或以较大大小查看时可能会模糊。相对`2D`而言体积更大，可能会减慢加载速度。 | 兼容性略弱。大量使用可能会略微影响性能。      | 受限于特殊的位图光栅化方式，在某些设备上显示或缩放时可能有问题，在细节上不如`3D`风格。相对`Flat`体积更大，可能会减慢加载速度。大量使用可能会影响性能。 | 当前提供的`high_contrast`参数实现的功能略有问题，即某些肤色变体的 Emoji 无法正确显示（奇怪转码逻辑……），且尚无很好的解决方案。在此风格下避免使用非默认肤色的 Emoji。 |
 
 ### ✨调整表情的显示效果
 
@@ -201,11 +203,11 @@ https://github.com/microsoft/fluentui-emoji
 
 `base`默认图像仓库地址为`https://raw.githubusercontent.com/DellZHackintosh/msemoji/main/src/`，可能会影响运行效果。如果出现这种问题，必须替换`base`默认值。下面提供一些可用的`base`值。
 
-1. `https://cdn.jsdelivr.net/gh/DellZHackintosh/msemoji@1.1.0/src/`（推荐。不过要记得，有挂掉的可能......）
+1. `https://cdn.jsdelivr.net/gh/DellZHackintosh/msemoji@1.1.1/src/`（推荐。不过要记得，有挂掉的可能......）
 
 2. `https://raw.gitmirror.com/dellzhackintosh/dellzhackintosh.github.io/master/MSEmojis`（请遵守`7ed.net`的使用说明，特别是**不要滥用**！）
 
-3. `https://gh.sourcegcdn.com/DellZHackintosh/msemoji/1.1.0/src/`（来自 [Source Global CDN](https://www.sourcegcdn.com/)）同样**不要滥用**，同时不允许空 Referer 请求。
+3. `https://gh.sourcegcdn.com/DellZHackintosh/msemoji/1.1.1/src/`（来自 [Source Global CDN](https://www.sourcegcdn.com/)）同样**不要滥用**，同时不允许空 Referer 请求。
 
 如果是脚本本身加载失败，则可以考虑换用：
 
@@ -213,7 +215,7 @@ https://github.com/microsoft/fluentui-emoji
 
 或（[Source Global CDN](https://www.sourcegcdn.com/)）
 
-`<script src="https://gh.sourcegcdn.com/DellZHackintosh/msemoji/1.1.0/src/script/msemoji.min.js"></script>`。
+`<script src="https://gh.sourcegcdn.com/DellZHackintosh/msemoji/1.1.1/src/script/msemoji.min.js"></script>`。
 
 当然，您也可以自己建一个 CDN，可以从 Releases 中获取文件。
 

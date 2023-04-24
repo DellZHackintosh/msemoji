@@ -42,7 +42,7 @@ var msemoji = (function (
       high_contrast: false,
 
       // provide the current version number in case you need it
-      version: '1.1.1',
+      version: '1.1.2',
 
       // basic utilities / helpers to convert code points
       // to JavaScript surrogates and vice versa

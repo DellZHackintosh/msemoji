@@ -1,49 +1,39 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Microsoft Emoji (msemoji)</title>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-    body {
-      font-family: sans-serif;
-      font-size: 16px;
-      text-align: center;
+<html lang="zh-CN">
+
+<head>
+  <title>Microsoft Emoji (msemoji)</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>
+    if (navigator.language != 'zh-CN') {
+      window.location.assign("./index-en.html");
     }
-    h1 {
-      font-size: 36px;
-    }
-    a, a:visited {
-      color: #777;
-    }
-    img.emoji {
-      height: 1em;
-      width: 1em;
-      margin: 0 .05em 0 .1em;
-      vertical-align: -0.1em;
-    }
-    </style>
-    <script>
-    	if (navigator.language !== 'zh-CN') {
-    		window.location.assign("./index-en.html");
-    	}
-    </script>
-  </head>
-  <body>
+  </script>
+  <link rel="icon" href="./favicon.ico">
+  <link rel="stylesheet" href="./CSS/indexUI.css">
+</head>
+
+<body>
+  <main>
     <h1>🌟MSEmoji✨</h1>
     <h2>相遇 msemoji——无论何处😃</h2>
     <p>Microsoft Emoji，熟悉、友好、现代化</p>
     <p><strong>当前版本：1.1.2</strong></p>
     <p><a href="https://github.com/DellZHackintosh/msemoji">查看此项目➡️</a>或<a href="./emojitest.html">预览效果🕶️</a></p>
-    <p><strong>请注意：</strong>这不是一个官方仓库。所有图像来自 <a href="https://github.com/microsoft/fluentui-emoji">Microsoft</a>，而代码修改自 <a href="https://github.com/twitter/twemoji">Twitter</a>。</p>
-    <script src="./msemoji.min.js"></script>
-    <script>
-      msemoji.parse(document.body,{
-		base: ".",
-		folder: "/images",
-		ext: ".svg"
-	});
-    </script>
-  </body>
+    <p><strong>请注意：</strong>这不是一个官方仓库。所有图像来自 <a href="https://github.com/microsoft/fluentui-emoji">Microsoft</a>，而代码修改自
+      <a href="https://github.com/twitter/twemoji">Twitter</a>。
+    </p>
+  </main>
+  <script src="./msemoji.min.js"></script>
+  <script>
+    msemoji.parse(document.body.children[0], {
+      base: ".",
+      folder: "/images",
+      ext: ".svg"
+    });
+  </script>
+</body>
+
 </html>

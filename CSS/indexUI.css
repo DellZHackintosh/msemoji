@@ -1,0 +1,58 @@
+  :root {
+      color-scheme: light dark;
+  }
+
+  body {
+      font-family: "Segoe UI Variable Text", "Segoe UI", -apple-system, BlinkMacSystemFont, sans-serif;
+      font-size: 16px;
+      background-image: url(../background.jpg);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center;
+      background-size: cover;
+      box-sizing: border-box;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+  }
+
+  main {
+      background-color: rgba(255, 255, 255, 0.7);
+      border-radius: 12px;
+      padding: 10px;
+      -webkit-backdrop-filter: blur(20px);
+      backdrop-filter: blur(20px);
+      text-align: center;
+      box-shadow: 0 0px 10px 0 rgb(0 0 0 / 20%), 0 0px 10px 0 rgb(0 0 0 / 20%);
+      width: fit-content;
+      height: fit-content;
+  }
+
+  h1 {
+      font-size: 36px;
+  }
+
+  a,
+  a:visited {
+      color: #777;
+  }
+
+  img.emoji {
+      height: 1em;
+      width: 1em;
+      margin: 0 .05em 0 .1em;
+      vertical-align: -0.1em;
+  }
+
+  @media (prefers-color-scheme: dark) {
+      body {
+          background-color: #202020;
+          background-blend-mode: overlay;
+      }
+
+      main {
+          background-color: rgba(0, 0, 0, 0.5);
+      }
+  }

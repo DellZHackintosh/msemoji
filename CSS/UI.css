@@ -1,0 +1,154 @@
+:root {
+    --accent-color: #cc9300;
+    --Switch-background-color: #e5e5e5;
+    --Switch-border-color: #858585;
+    --Switch-after-color: #898989;
+    --Switch-after-checked-color: #ffffff;
+    --Switch-button-color: #ffffff;
+    --Switch-button-before: #cccccc;
+    --Switch-button-after: #d5d5d5;
+    --Switch-button-hover: #f5f5f5;
+    --Switch-button-active: #f6f6f6;
+    --Switch-first-button-font-color: white;
+    --button-border: linear-gradient(#e5e5e5 90%, #ccc 100%);
+    --input-border: linear-gradient(#e5e5e5 calc(100% - 1px), #8a8a8a calc(100% - 1px), #8a8a8a);
+    --input-active-border: linear-gradient(#e5e5e5 calc(100% - 1px), var(--accent-color) calc(100% - 1px), var(--accent-color));
+    --input-background: white;
+    --input-hover-background: #f7f7f7;
+    --details-border-color: #e5e5e5;
+    --details-background: #fbfbfb;
+    --summary-hover-background: #f6f6f6;
+    --details-second-font-color: #5e5e5e;
+}
+
+[appearance~=fluent] {
+    box-sizing: border-box;
+}
+
+body,
+button[appearance~=fluent] {
+    font-family: "Segoe UI Variable Text", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    color: black;
+}
+
+button[appearance~=fluent][appearance~=accent] {
+    color: white;
+}
+
+button[appearance~=fluent],
+button[appearance~=fluent][appearance~=accent] {
+    position: relative;
+    border-radius: 4px;
+    height: 30px;
+    width: 130px;
+    box-shadow: 0 2px 2px 0px rgba(0, 0, 0, 0.1);
+}
+
+button[appearance~=fluent] {
+    border: 1px solid transparent;
+    background: padding-box linear-gradient(var(--Switch-button-color), var(--Switch-button-color)), border-box var(--button-border), border-box var(--Switch-button-color);
+    font-size: 14px;
+}
+
+button[appearance~=fluent]:disabled {
+    filter: brightness(0.9);
+}
+
+button[appearance~=fluent][appearance~=accent] {
+    background: padding-box linear-gradient(var(--accent-color), var(--accent-color)), border-box linear-gradient(#ffffff20 90%, #00000060 100%), border-box var(--accent-color);
+    color: var(--Switch-first-button-font-color);
+}
+
+input[type=text][appearance~=fluent],
+textarea[appearance~=fluent] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    height: 32px;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    background: padding-box linear-gradient(var(--input-background), var(--input-background)), border-box var(--input-border);
+    font-family: inherit;
+    font-size: 14px;
+    outline: none;
+    padding: 0px 9px;
+    box-shadow: 0 2px 2px 0px rgba(0, 0, 0, 0.1);
+}
+
+input[type=text][appearance~=fluent]:focus-within,
+textarea[appearance~=fluent]:focus-within {
+    background: padding-box linear-gradient(var(--input-background), var(--input-background)), border-box var(--input-active-border);
+}
+
+textarea[appearance~=fluent] {
+    padding: 9px;
+}
+
+@media (any-hover: hover) {
+    button[appearance~=fluent]:not(:disabled):hover {
+        filter: brightness(0.95);
+    }
+
+    input[type=text][appearance~=fluent]:hover,
+    textarea[appearance~=fluent]:hover {
+        background: padding-box linear-gradient(var(--input-hover-background), var(--input-hover-background)), border-box var(--input-border);
+    }
+
+    input[type=text][appearance~=fluent]:focus-within:hover,
+    textarea[appearance~=fluent]:focus-within:hover {
+        background: padding-box linear-gradient(var(--input-hover-background), var(--input-hover-background)), border-box var(--input-active-border);
+    }
+}
+
+button[appearance~=fluent]:not(:disabled):active {
+    filter: brightness(0.9);
+    box-shadow: none;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --accent-color: #ffb900;
+        --Switch-background-color: #3b3b3b;
+        --Switch-border-color: #a1a1a1;
+        --Switch-after-color: #d1d1d1;
+        --Switch-after-checked-color: #000000;
+        --Switch-button-color: #2d2d2d;
+        --Switch-button-before: #303030;
+        --Switch-button-after: #353535;
+        --Switch-button-hover: #323232;
+        --Switch-button-active: #272727;
+        --Switch-first-button-font-color: black;
+        --button-border: linear-gradient(#303030, #303030);
+        --input-border: linear-gradient(#303030 calc(100% - 1px), #9a9a9a calc(100% - 1px), #9a9a9a);
+        --input-active-border: linear-gradient(#303030 calc(100% - 1px), var(--accent-color) calc(100% - 1px), var(--accent-color));
+        --input-background: #2d2d2d;
+        --input-hover-background: #323232;
+        --details-border-color: #1d1d1d;
+        --details-background: #2b2b2b;
+        --summary-hover-background: #323232;
+        --details-second-font-color: #cfcfcf;
+    }
+
+    body {
+        background-color: #202020;
+        color: white;
+    }
+
+    button[appearance~=fluent] {
+        color: white;
+    }
+
+    button[appearance~=fluent][appearance~=accent] {
+        color: black;
+    }
+
+    input[type=text][appearance~=fluent],
+    textarea[appearance~=fluent] {
+        color: white;
+    }
+
+    input[type=text][appearance~=fluent]::placeholder,
+    textarea[appearance~=fluent]::placeholder {
+        color: #cfd1d2;
+    }
+}
